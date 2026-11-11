@@ -1,0 +1,37 @@
+ElBee Player for Android Licence
+
+Copyright (c) 2026 ElBeeHQ. All rights reserved.
+
+1. Licence
+   You may download, install and use ElBee Player for Android, free of charge, on Android devices that you own or
+   control, for your own personal, non-commercial use.
+
+2. Restrictions
+   Except as this licence or the law allows, you may not: (a) copy, redistribute or republish ElBee Player, or offer it
+   for download elsewhere; (b) sell, rent, lease or sublicense it; (c) modify it or create works based on it;
+   (d) decompile, disassemble or reverse engineer it, or try to extract its source code; or (e) remove or alter any
+   copyright or licence notice in it. Clauses (c) and (d) do not limit what a third-party licence gives you for the
+   components named in clause 3.
+
+3. Third-party software
+   ElBee Player includes third-party components, including FFmpeg (LGPL 2.1 or later), AndroidX Media3 (Apache 2.0) and
+   Haze (Apache 2.0), each under its own licence; see the Third-Party Notices. Nothing in this licence limits your
+   rights under those licences, including your right to replace the FFmpeg library in the app with your own build of it
+   and to use the app with it. The FFmpeg source and build instructions are published with every release.
+
+4. Your playlists and servers
+   ElBee Player is an independent media player. It comes with no channels, films, programmes or playlists of any kind;
+   it plays what your own playlists and servers give it. You are responsible for having the right to use what you play.
+
+5. No warranty
+   ElBee Player is provided "as is", without warranty of any kind, express or implied, including fitness for a particular
+   purpose and non-infringement.
+
+6. Limit of liability
+   To the fullest extent the law allows, the author is not liable for any loss or damage arising from your use of
+   ElBee Player, including lost data or playlists.
+
+7. Updates and ending this licence
+   ElBee Player may update itself, and updates are covered by this licence. The author may stop distributing or
+   supporting ElBee Player at any time. This licence ends automatically if you breach it, and you must then stop using
+   ElBee Player and delete your copies.
