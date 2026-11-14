@@ -2,7 +2,8 @@
 # Builds Media3's FFmpeg audio decoder (decoder_ffmpeg, Media3 1.11.1) for ElBee Player and copies the result into the
 # repo's :ffmpeg module: the Java classes (Apache 2.0, unchanged) into ffmpeg/src/main/java and libffmpegJNI.so per ABI
 # into ffmpeg/src/main/jniLibs. Reproducible: every download is pinned by its checksum, and the FFmpeg configuration is
-# written to ffmpeg/FFMPEG-BUILD.txt beside the libraries. This script is the "build script" offered with the FFmpeg
+# written to ffmpeg/FFMPEG-BUILD.txt beside the libraries. The script refuses any build whose licence is not exactly
+# "LGPL version 2.1 or later". This script is the "build script" offered with the FFmpeg
 # source under the LGPL (see docs/player.md).
 #
 #   scripts/build-ffmpeg-decoder.sh [toolchain dir]
@@ -15,7 +16,9 @@
 set -euo pipefail
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
-TOOLCHAIN="${1:-${ELBEE_TOOLCHAIN:-$REPO/../../ElBee-review/android/toolchain}}"
+# The main checkout, also from a worktree (.claude/worktrees/x), so every checkout shares one toolchain folder beside it.
+MAIN="$(cd "$(git -C "$REPO" rev-parse --path-format=absolute --git-common-dir 2>/dev/null || echo "$REPO/.git")/.." && pwd)"
+TOOLCHAIN="${1:-${ELBEE_TOOLCHAIN:-$MAIN/../ElBee-review/android/toolchain}}"
 mkdir -p "$TOOLCHAIN"
 TOOLCHAIN="$(cd "$TOOLCHAIN" && pwd)"
 
@@ -28,9 +31,9 @@ MEDIA3_VERSION=1.11.1
 MEDIA3_SHA256=${MEDIA3_SHA256:-}                               # GitHub's tag archive; recorded in FFMPEG-BUILD.txt
 API=28                                                         # = minSdk
 ABIS=(arm64-v8a armeabi-v7a x86_64)
-# Audio decoders only (why each, in docs/player.md): MPEG audio layers I-III, AAC, AC-3, DTS. E-AC-3 is left out: devices
-# that can play it have a hardware decoder (device-test checks for one), and it keeps a patent-heavy decoder out of the app.
-DECODERS=(mp1 mp2 mp3 aac ac3 dca)
+# Audio decoders only (why each, in docs/player.md): MPEG audio layers I-III, AC-3, DTS. E-AC-3 and AAC are left out
+# (decision D4): devices decode them with their own licensed decoders, and it keeps both out of the app.
+DECODERS=(mp1 mp2 mp3 ac3 dca)
 
 case "$(uname -s)" in
   Darwin) HOST=darwin-x86_64; NDK_ZIP=android-ndk-$NDK_VERSION-darwin.zip; WANT_SHA1=$NDK_ZIP_SHA1 ;;
@@ -71,7 +74,9 @@ TC="$NDK/toolchains/llvm/prebuilt/$HOST/bin"
 ENABLE=""
 for d in "${DECODERS[@]}"; do ENABLE="$ENABLE --enable-decoder=$d"; done
 # Media3's own options (build_ffmpeg.sh), plus --disable-autodetect so no external library is picked up from the NDK's
-# sysroot (zlib, iconv, ...). GPL and nonfree parts stay off (FFmpeg's defaults); the check below fails the build if not.
+# sysroot (zlib, iconv, ...). GPL and nonfree parts stay off (FFmpeg's defaults); the check below fails the build unless
+# FFmpeg's configure reports exactly "LGPL version 2.1 or later" and none of --enable-gpl, --enable-nonfree or
+# --enable-version3 is among the configure flags.
 COMMON="--target-os=android --enable-static --disable-shared --enable-pic --disable-doc --disable-programs
   --disable-everything --disable-avdevice --disable-avformat --disable-swscale --disable-postproc --disable-avfilter
   --disable-network --disable-autodetect --disable-symver --enable-swresample --disable-v4l2-m2m --disable-vulkan
@@ -97,7 +102,15 @@ for abi in "${ABIS[@]}"; do
        --extra-cflags="$cflags" $COMMON > configure.log \
      && make -j"$JOBS" > make.log && make install-libs install-headers > install.log && mv .decoders.pending decoders.txt)
   fi
-  # Licence check: no GPL, no nonfree, no external libraries.
+  # Licence check: no GPL, no nonfree, no version 3, no external libraries; the licence must be exactly LGPL 2.1 or later.
+  LICENCE="$(sed -n 's/^#define FFMPEG_LICENSE "\(.*\)"/\1/p' "$B/config.h")"
+  if [ "$LICENCE" != "LGPL version 2.1 or later" ]; then
+    echo "Refusing to continue: FFmpeg's licence for $abi is '$LICENCE', not 'LGPL version 2.1 or later'" >&2; exit 1
+  fi
+  CONFFLAGS="$(sed -n 's/^#define FFMPEG_CONFIGURATION "\(.*\)"/\1/p' "$B/config.h")"
+  for bad in --enable-gpl --enable-nonfree --enable-version3; do
+    case " $CONFFLAGS " in *" $bad "*) echo "Refusing to continue: configure flags for $abi contain $bad" >&2; exit 1 ;; esac
+  done
   grep -q '^#define CONFIG_GPL 0' "$B/config.h"
   grep -q '^#define CONFIG_NONFREE 0' "$B/config.h"
   grep -q '^#define CONFIG_VERSION3 0' "$B/config.h"

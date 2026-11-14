@@ -59,9 +59,9 @@ ElBee Player for Android is installed from the APK file on the [latest release](
 
 ElBee Player updates itself. Open **Settings → General → Updates** and choose **Check for Updates Now…**, or leave
 automatic checks on. The app reads a signed list of releases from this repository, downloads the new version, and checks
-it against ElBee Player's signing key and its own certificate before it hands it to Android's installer. Android asks
-you to confirm each update, and, the first time, to allow ElBee Player to install updates (**Install unknown apps** for
-ElBee Player itself). Your playlists, favourites and settings are kept.
+it against ElBee Player's signing key and its own certificate before it hands it to Android's installer. Android may ask
+you to confirm an update, and, the first time, asks you to allow ElBee Player to install updates (**Install unknown apps**
+for ElBee Player itself). Your playlists, favourites and settings are kept.
 
 See the [changelog](CHANGELOG.md) for what changed in each release.
 
@@ -72,8 +72,7 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
   favourites or your settings to the developer or to any third party.
 - **The only network connections it makes** are to the playlists and servers you enter (channel lists, programme
   guide, artwork addresses they supply, and the streams themselves) and to GitHub, to check for and download updates.
-  You can turn automatic update checks off in Settings. As with any web request, GitHub can see your IP address and the
-  app version.
+  You can turn automatic update checks off in Settings. As with any web request, GitHub can see your IP address.
 
 ## Legal & Disclaimer
 

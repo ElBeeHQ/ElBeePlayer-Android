@@ -29,12 +29,11 @@ Configure options (arm64-v8a; the others differ only in --arch/--cpu/cross-prefi
   --enable-decoder=mp1
   --enable-decoder=mp2
   --enable-decoder=mp3
-  --enable-decoder=aac
   --enable-decoder=ac3
   --enable-decoder=dca
-Enabled decoders: aac ac3 dca mp1 mp2 mp3 
+Enabled decoders: ac3 dca mp1 mp2 mp3 
 Libraries: libavcodec, libavutil, libswresample, linked statically into libffmpegJNI.so with Media3's ffmpeg_jni.cc
 Sizes (stripped):
-  arm64-v8a: 1336040 bytes
-  armeabi-v7a: 1166540 bytes
-  x86_64: 1388640 bytes
+  arm64-v8a: 1150952 bytes
+  armeabi-v7a: 989580 bytes
+  x86_64: 1183472 bytes

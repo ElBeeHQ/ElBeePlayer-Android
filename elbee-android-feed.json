@@ -1,5 +1,17 @@
 {
   "format": 1,
   "package": "io.github.elbeehq.elbeeplayer",
-  "releases": []
+  "releases": [
+    {
+      "versionCode": 1,
+      "versionName": "0.1.0",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.0/ElBeePlayer-0.1.0.apk",
+      "apkSize": 11148766,
+      "apkSha256": "b366c28a2b0b100ae9608d7a404b4b68db2548880066dfdd52f4f7ad0cb99f29",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "The first public release of ElBee Player for Android: one app for TV and phone that plays the playlist you already have from your TV provider.\n\nElBee Player is a media player. It includes no channels, films or other content. Use your own playlist from your TV provider.\n\n- Live TV, TV Guide, Catch-Up, Radio, Movies, Series, Favourites, History\n- Server Sign-In or M3U playlist\n- TV remote and touch layouts\n- Built-in updates\n\nComing next: easier playlist management, pasting a whole link, smoother loading.",
+      "published": "2026-11-14"
+    }
+  ]
 }
