@@ -29,6 +29,11 @@ licence texts after it, in Settings › General › About › Third-Party Notice
 
 - Licence: **Apache License 2.0**. Copyright Square, Inc. https://square.github.io/okhttp/
 
+## Okio 3.18.1 (inside OkHttp)
+
+- Licence: **Apache License 2.0**. Copyright Square, Inc. https://square.github.io/okio/
+- OkHttp's input and output library, fetched with it from Maven Central. Unmodified.
+
 ## Haze 1.7.1 (`dev.chrisbanes.haze:haze`, module `:ui`)
 
 - Licence: **Apache License 2.0** (http://www.apache.org/licenses/LICENSE-2.0.txt), Copyright Chris Banes and contributors.

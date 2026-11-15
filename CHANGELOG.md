@@ -5,6 +5,29 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.1: Fire TV fixes (15 November 2026)
+Small fixes from the first weeks on Fire TV: a box for pasting a whole link, loading that ticks off in order, a TV Guide that keeps its full width, and a clearer Manage Playlists.
+
+### Sign-in
+- **Fill In From Link:** opens a box where you can paste or type the whole link from your provider, then fills in the server, username and password. Paste From Clipboard is still there as an extra.
+
+### Loading
+- **Loading in order:** Live TV, Movies and Series each tick off in turn. The TV Guide row says it loads in the background. Cancel goes once loading is done.
+- **Start screen:** a larger logo with the ElBee Player name, in the middle of the screen, that stays in one place from launch to the loading screen. On TV the loading steps sit in one row.
+
+### TV
+- **TV Guide with the mini-player:** the guide keeps its full width. The mini-player sits in the top-right corner, beside the programme's details.
+- **TV Guide clock:** shows the day and date with the time, in your device's language and 12- or 24-hour setting.
+- **TV Guide opens at now:** each time you open it, the times start at the current time with the now line on screen. Back from full screen still returns to the programme you were on.
+- **Getting back to the menu from the TV Guide:** Left goes back through programmes only as far as the one on now (further only where the channel has catch-up), then to the channel names, then the menu. Back goes straight to the menu.
+
+### Settings
+- **Manage Playlists:** each playlist is a card with its own buttons: Make Active, Refresh Playlist & Guide Now and Remove…. Add Playlist… has its own button. On TV, beside the mini-player, the buttons wrap onto a second line instead of squeezing.
+- **Refresh Playlist & Guide Now:** shows that it's working, then says when the playlist was last refreshed and what it got, until the next refresh. If your provider can't be reached, it says so and your lists stay as they were.
+
+### About
+- **Third-Party Notices:** now lists Okio, and each build lists only what it contains.
+
 ## v0.1.0: First release (14 November 2026)
 The first public release of ElBee Player for Android: one app for TV and phone that plays the playlist you already have from your TV provider.
 

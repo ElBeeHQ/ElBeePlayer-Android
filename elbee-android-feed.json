@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 2,
+      "versionName": "0.1.1",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.1/ElBeePlayer-0.1.1.apk",
+      "apkSize": 11218510,
+      "apkSha256": "af8554ac1dc80382cad021e1d869c35be0d51a09492cb510fb2de137a8fb84ae",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "Small fixes from the first weeks on Fire TV: a box for pasting a whole link, loading that ticks off in order, a TV Guide that keeps its full width, and a clearer Manage Playlists.\n\n- Fill In From Link\n- Loading in order\n- Start screen\n- TV Guide with the mini-player\n- TV Guide clock\n- TV Guide opens at now\n- And 4 more",
+      "published": "2026-11-15"
+    },
+    {
       "versionCode": 1,
       "versionName": "0.1.0",
       "minSdk": 28,
