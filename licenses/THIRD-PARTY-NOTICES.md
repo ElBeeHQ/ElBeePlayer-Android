@@ -80,6 +80,19 @@ licence texts after it, in Settings › General › About › Third-Party Notice
 - Licence: **BSD 3-Clause** (https://asm.ow2.io/license.html), Copyright (c) 2000-2011 INRIA, France Telecom.
 - Used by `AndroidApiGuardTest` to read core's compiled classes for the Android API check. Never packaged into the APK.
 
+## Nunito (outlines of the "ElBeeHQ" wordmark, module `:ui`)
+
+- Licence: **SIL Open Font License 1.1** (https://openfontlicense.org). Copyright 2014 The Nunito Project Authors
+  (https://github.com/googlefonts/nunito).
+- Only the drawn outlines of the letters "ElBeeHQ" at weight 900 are in the app, as vector drawings
+  (`elbeehq_wordmark_on_dark.xml`, `elbeehq_wordmark_on_light.xml`). The font itself is not included, and no text in the
+  app is set in it.
+
+## Trademarks
+
+Fire TV is a trademark of Amazon.com, Inc. or its affiliates. Android, Android TV and Google TV are trademarks of
+Google LLC. ElBee Player is not affiliated with or endorsed by Amazon or Google.
+
 ## The licence texts
 
 The full texts of the GNU Lesser General Public License 2.1 (`ffmpeg/COPYING.LGPLv2.1`) and the Apache License 2.0

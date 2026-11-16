@@ -83,6 +83,8 @@ See the [changelog](CHANGELOG.md) for what changed in each release.
 - It is made for use with services and media you have the right to use.
 - ElBee Player is not affiliated with or endorsed by any broadcaster, content owner, service provider, Google, Amazon,
   the FFmpeg project or the makers of any library it uses. All names and trademarks belong to their respective owners.
+- Fire TV is a trademark of Amazon.com, Inc. or its affiliates. Android, Android TV and Google TV are trademarks of
+  Google LLC.
 
 The full terms are at [elbeehq.com/legal.html](https://elbeehq.com/legal.html), and the privacy policy at
 [elbeehq.com/privacy.html](https://elbeehq.com/privacy.html).

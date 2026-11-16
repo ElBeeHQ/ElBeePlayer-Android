@@ -5,6 +5,16 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.2: ElBeeHQ credits (16 November 2026)
+A small release: ElBee Player now says who makes it, and About lists the trademarks it names.
+
+### TV
+- **Start and loading screens:** a quiet "from ElBeeHQ" at the foot of the screen. The ElBee Player logo and name stay where they were.
+
+### About
+- **Made by ElBeeHQ:** the ElBeeHQ logo closes the About page on TV, and the General tab on phones and tablets.
+- **Third-Party Notices:** now lists the trademarks of the platforms ElBee Player runs on, and the font the ElBeeHQ logo is drawn from.
+
 ## v0.1.1: Fire TV fixes (15 November 2026)
 Small fixes from the first weeks on Fire TV: a box for pasting a whole link, loading that ticks off in order, a TV Guide that keeps its full width, and a clearer Manage Playlists.
 
