@@ -1,2 +1,3 @@
 licenses/** linguist-vendored
 *.sh linguist-detectable=false
+*.sig linguist-detectable=false
