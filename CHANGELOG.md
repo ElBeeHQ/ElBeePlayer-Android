@@ -5,6 +5,15 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.3: Spatial Audio (17 November 2026)
+Films and channels with surround sound can now go to your TV or soundbar as they are, and the player says what it is sending.
+
+### Playback
+- **Spatial Audio:** a new setting in Playback › Audio, on by default. Surround sound goes straight to your TV or soundbar when they can play it. If they can't take the spatial version, ElBee Player sends the same sound as plain surround. If they can't take surround either, the sound is played on the device as before. Turn it off to send spatial sound as plain surround (5.1).
+
+### Player
+- **What you're hearing:** the player's info row says "Spatial Audio" or "Surround 5.1" while that is what reaches your TV or soundbar, and nothing for ordinary sound.
+
 ## v0.1.2: ElBeeHQ credits (16 November 2026)
 A small release: ElBee Player now says who makes it, and About lists the trademarks it names.
 
