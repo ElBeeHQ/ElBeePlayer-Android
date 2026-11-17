@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 6,
+      "versionName": "0.1.5",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.5/ElBeePlayer-0.1.5.apk",
+      "apkSize": 11301214,
+      "apkSha256": "05209db224c531abb1b558a6191eb87bde117b8d47793e47cb24ebad24a2a383",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "Stopping or changing what plays no longer closes the app when your playlist's addresses start with https.\n\n- Stop and switch",
+      "published": "2026-11-17"
+    },
+    {
       "versionCode": 5,
       "versionName": "0.1.4",
       "minSdk": 28,

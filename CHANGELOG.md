@@ -5,6 +5,12 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.5: Stopping playback fixed (17 November 2026)
+Stopping or changing what plays no longer closes the app when your playlist's addresses start with https.
+
+### Playback
+- **Stop and switch:** pressing Back on a station or channel, leaving the Radio page, changing channel, closing the mini-player and moving between a film and a channel no longer close the app when your playlist uses secure (https) addresses.
+
 ## v0.1.4: Loading and format badges (17 November 2026)
 Every load now shows how far it has got, posters say what format a title comes in, and an update download that stalls says why.
 
