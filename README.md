@@ -5,107 +5,79 @@
 <h1 align="center">ElBee Player for Android</h1>
 
 <p align="center">
-  <strong>A fast, native media player for Android TV, Google TV, Fire TV, phones and tablets.</strong><br>
-  Live TV, a full TV Guide, Catch-Up, Radio, Movies and Series, in one app.
+  <strong>Live TV, the TV Guide, films, series and radio from the TV service you already have, on your TV, phone and tablet.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest"><strong>Download the latest release</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://elbeehq.com">Website</a>
-  &nbsp;·&nbsp;
-  <a href="CHANGELOG.md">What's new</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ElBeeHQ/ElBeePlayer-Android/issues">Report a problem</a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/elbeehq-hive-on-dark.svg"><img src="assets/brand/elbeehq-hive-on-light.svg" alt="" width="36" height="36"></picture>&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/elbeehq-wordmark-on-dark.svg"><img src="assets/brand/elbeehq-wordmark-on-light.svg" alt="ElBeeHQ" height="24"></picture>
 </p>
 
 <p align="center">
-  Free for personal use · Android 9 or later · One app for TV and phone · Updates itself
+  <a href="https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest"><img src="https://img.shields.io/github/v/release/ElBeeHQ/ElBeePlayer-Android?label=release&color=FFB020" alt="Latest release"></a>
+  <a href="https://elbeehq.com/android"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElBeeHQ%2FElBeePlayer-Android%2Fmain%2Fassets%2Fbadges%2Fminimum.json" alt="Android 9 or later"></a>
+  <a href="https://elbeehq.com/android"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FElBeeHQ%2FElBeePlayer-Android%2Fmain%2Fassets%2Fbadges%2Fruns-on.json" alt="Runs on phones, tablets, Android TV, Google TV and Fire TV"></a>
+  <a href="https://elbeehq.com"><img src="https://img.shields.io/badge/Windows-coming%20soon-6e7681" alt="Windows: coming soon"></a>
+  <a href="https://github.com/ElBeeHQ/ElBeePlayer-Android/releases"><img src="https://img.shields.io/github/downloads/ElBeeHQ/ElBeePlayer-Android/total?label=downloads&color=FFB020" alt="Total downloads"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-free%20for%20personal%20use-FFB020" alt="Licence: free for personal use"></a>
+  <a href="https://elbeehq.com/privacy"><img src="https://img.shields.io/badge/privacy-no%20tracking-FFB020" alt="Privacy: no tracking"></a>
 </p>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-dark.jpg">
+    <img src="assets/screenshot-light.jpg" alt="ElBee Player's Home on a TV, with new films and On Now, beside Live TV on a phone">
+  </picture>
+</p>
 
-ElBee Player works with the playlists and servers you already have: sign in with a server address, username and
-password, or add an M3U playlist from a web address. Your channels, programme guide, movies and series are ready in
-moments, and every visit after that opens straight from a copy kept on your device.
+ElBee Player plays the channels, programme guide, films and series from the TV service you already subscribe to.
+Sign in with your provider's server address, username and password, or add a playlist link. It comes with no
+channels or content of its own.
 
-> **ElBee Player is a player only.** It comes with no channels, playlists or media of any kind. You bring your own.
-> See [Legal & Disclaimer](#legal--disclaimer).
+## Why ElBee Player
 
-## One app, made for each screen
+- **Made for the remote, and for touch.** On a TV, a side rail, large type and everything on the D-pad. On a phone
+  or tablet, tabs or a navigation rail, in portrait and landscape. One app for both.
+- **No account, no ads, no tracking.** Recommendations are worked out on your device, and nothing about what you
+  watch is sent to us or anyone else.
+- **Your sign-in stays on your device,** encrypted with Android Keystore, and goes only to your own service.
+- **A real TV Guide,** with catch-up where your service offers it, plus Radio, Favourites and History. A mini-player
+  stays with you while you browse.
+- **Spatial Audio:** films and channels with surround sound go to your TV or soundbar as they are, and the player
+  says what it is sending.
+- **Updates itself,** from this page, checked against ElBee Player's signing key. Your playlists and settings are kept.
 
-- **Android TV, Google TV and Fire TV:** a side rail for the pages, big type, a clear amber highlight on whatever is
-  selected, and everything reachable with the remote's D-pad.
-- **Phones and tablets:** tabs along the bottom on a phone, a navigation rail on a tablet, portrait and landscape,
-  touch first.
-- Pages as on the Mac app: Home, Recently Added, Live TV, TV Guide, Catch-Up, Radio, Movies, Series, Favourites and
-  History.
-- A full-screen player with audio and subtitle choices, and a mini-player that stays with you while you browse.
+## Download
 
-## Install
+<p>
+  <a href="https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Android-FFB020?style=for-the-badge" alt="Download for Android" height="36"></a>
+</p>
 
-ElBee Player for Android is installed from the APK file on the [latest release](https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest).
+One APK works on phones, tablets, Android TV, Google TV and Fire TV. It isn't from an app store, so Android asks you
+to allow the install once.
 
-1. On your device, open the latest release and download `ElBeePlayer-x.y.z.apk`. On a TV, download it with a browser
-   or a file-transfer app such as Downloader, or copy it over from a computer.
-2. Open the file. Android asks whether the app you are using (your browser or file manager) may install apps: allow it
-   for this one install. On Android 8 and later this is **Settings → Apps → Special app access → Install unknown apps**.
-3. Choose **Install**, then **Open**.
-4. Sign in with your server address, username and password, or add an M3U playlist.
+1. **Phone or tablet:** download the APK from the [latest release](https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest)
+   or [elbeehq.com/android](https://elbeehq.com/android) and open it. Allow your browser to install apps when Android
+   asks, then choose **Install**.
+2. **Fire TV:** install the free Downloader app from your Fire TV's app store and turn on **Settings › My Fire TV ›
+   Developer Options › Install unknown apps › Downloader**. In Downloader, enter the code **6226364**
+   (elbeehq.com/android) and install. Fire TV devices that run Fire OS can install it.
+3. **Android TV or Google TV:** do the same with a downloader app from your TV's app store, allowing it to install
+   apps when Android asks. The [step-by-step guide](https://elbeehq.com/android#install) covers every device.
 
-**Requirements:** Android 9 (API 28) or later; 64-bit and 32-bit ARM and x86-64 devices.
+Needs Android 9 or later, and your own TV service.
 
-## Updates
+## Links
 
-ElBee Player updates itself. Open **Settings → General → Updates** and choose **Check for Updates Now…**, or leave
-automatic checks on. The app reads a signed list of releases from this repository, downloads the new version, and checks
-it against ElBee Player's signing key and its own certificate before it hands it to Android's installer. Android may ask
-you to confirm an update, and, the first time, asks you to allow ElBee Player to install updates (**Install unknown apps**
-for ElBee Player itself). Your playlists, favourites and settings are kept.
+[What's New](CHANGELOG.md) · [Help](https://elbeehq.com/support) · [Report a problem](https://github.com/ElBeeHQ/ElBeePlayer-Android/issues) ·
+[Privacy](https://elbeehq.com/privacy) · [Legal & Terms](https://elbeehq.com/legal) · [elbeehq.com](https://elbeehq.com)
 
-See the [changelog](CHANGELOG.md) for what changed in each release.
+<sub>ElBee Player is a media player only. It includes no channels, films or other content; use it only with services
+and media you have the right to use. ElBeeHQ is not affiliated with, endorsed by or sponsored by any broadcaster,
+content owner, TV service, Google, Amazon, GitHub or the FFmpeg project. Android, Android TV and Google TV are
+trademarks of Google LLC. Fire TV and Fire OS are trademarks of Amazon.com, Inc. or its affiliates. GitHub is a
+trademark of GitHub, Inc. Other names belong to their owners and are used only to describe compatibility.</sub>
 
-## Privacy & Security
-
-- **Sign-in details are kept encrypted on your device,** in the Android Keystore. None of it is sent to the developer.
-- **No analytics, accounts, advertising or tracking.** ElBee Player does not send what you watch, your playlists, your
-  favourites or your settings to the developer or to any third party.
-- **The only network connections it makes** are to the playlists and servers you enter (channel lists, programme
-  guide, artwork addresses they supply, and the streams themselves) and to GitHub, to check for and download updates.
-  You can turn automatic update checks off in Settings. As with any web request, GitHub can see your IP address.
-
-## Legal & Disclaimer
-
-**This application is a media player and provides no content, playlists or channels. Users must provide their own.**
-
-- ElBee Player does not include, host, sell, recommend or link to any channels, playlists, programme listings or
-  services, and it ships with no examples.
-- It is made for use with services and media you have the right to use.
-- ElBee Player is not affiliated with or endorsed by any broadcaster, content owner, service provider, Google, Amazon,
-  the FFmpeg project or the makers of any library it uses. All names and trademarks belong to their respective owners.
-- Fire TV is a trademark of Amazon.com, Inc. or its affiliates. Android, Android TV and Google TV are trademarks of
-  Google LLC.
-
-The full terms are at [elbeehq.com/legal.html](https://elbeehq.com/legal.html), and the privacy policy at
-[elbeehq.com/privacy.html](https://elbeehq.com/privacy.html).
-
-## Support
-
-Found a problem or have an idea? Open an [issue](https://github.com/ElBeeHQ/ElBeePlayer-Android/issues), or send a
-private message from [elbeehq.com](https://elbeehq.com/support.html#contact). The install guide and answers to common
-questions are there too.
-
-## Licence
-
-Copyright (c) 2026 ElBeeHQ. All rights reserved. The app is available at no charge for personal, non-commercial use;
-see [`LICENSE`](LICENSE).
-
-## Third-party software
-
-ElBee Player uses [FFmpeg](https://ffmpeg.org) (audio decoders only; LGPL 2.1 or later),
-[AndroidX Media3](https://github.com/androidx/media), [Jetpack Compose](https://developer.android.com/jetpack/compose),
-[OkHttp](https://square.github.io/okhttp/), [Coil](https://coil-kt.github.io/coil/),
-[Haze](https://github.com/chrisbanes/haze) (all Apache 2.0) and [Bouncy Castle](https://www.bouncycastle.org) (MIT).
-Their licences and notices are in [`licenses/`](licenses/). The FFmpeg in the app is unmodified; its source, build
-settings and build script are in `licenses/` and attached to every release, so you can rebuild the library and use the
-app with your own build of it.
+<sub>© 2026 ElBeeHQ. Free for personal, non-commercial use; see [LICENSE](LICENSE). ElBee Player includes FFmpeg
+(audio decoders only; LGPL 2.1 or later, unmodified, with its source and build script in [licenses/](licenses/) and
+on every release, so you can use your own build), AndroidX Media3, Jetpack Compose, OkHttp, Coil, Haze (Apache 2.0)
+and Bouncy Castle (MIT); their licences are in [licenses/](licenses/) and in the app.</sub>
