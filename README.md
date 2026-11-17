@@ -58,11 +58,11 @@ to allow the install once.
 1. **Phone or tablet:** download the APK from the [latest release](https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest)
    or [elbeehq.com/android](https://elbeehq.com/android) and open it. Allow your browser to install apps when Android
    asks, then choose **Install**.
-2. **Fire TV:** install the free Downloader app from your Fire TV's app store and turn on **Settings › My Fire TV ›
-   Developer Options › Install unknown apps › Downloader**. In Downloader, enter the code **6226364**
-   (elbeehq.com/android) and install. Fire TV devices that run Fire OS can install it.
-3. **Android TV or Google TV:** do the same with a downloader app from your TV's app store, allowing it to install
-   apps when Android asks. The [step-by-step guide](https://elbeehq.com/android#install) covers every device.
+2. **Fire TV:** download the APK from elbeehq.com/android with a browser or a file-transfer app from your Fire TV's
+   app store, turn on **Settings › My Fire TV › Developer Options › Install unknown apps** for that app, and install.
+   Fire TV devices that run Fire OS can install it.
+3. **Android TV or Google TV:** do the same with a browser or a file-transfer app from your TV's app store, allowing
+   it to install apps when Android asks. The [step-by-step guide](https://elbeehq.com/android#install) covers every device.
 
 Needs Android 9 or later, and your own TV service.
 

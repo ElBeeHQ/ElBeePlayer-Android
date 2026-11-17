@@ -5,6 +5,19 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.4: Loading and format badges (17 November 2026)
+Every load now shows how far it has got, posters say what format a title comes in, and an update download that stalls says why.
+
+### Loading
+- **Progress on every load:** first launch, relaunch, switching playlist and Refresh Now each show the steps in order with a bar that fills and never goes back. A load that is over in under a second shows only the logo.
+- **While you browse:** an update of a library you are already using shows in a thin strip on the page, not over it.
+
+### Posters and title pages
+- **Format badges:** films and series show their picture and sound format, as on the Mac.
+
+### Updates
+- **Stalled downloads:** an update download that stops says why ("No internet connection.", "The update server isn't answering." or "The download stopped.") and offers Try Again.
+
 ## v0.1.3: Spatial Audio (17 November 2026)
 Films and channels with surround sound can now go to your TV or soundbar as they are, and the player says what it is sending.
 
