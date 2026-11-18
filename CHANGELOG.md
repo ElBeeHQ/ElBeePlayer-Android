@@ -5,6 +5,46 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.7: A new look on phones and tablets (18 November 2026)
+Phones and tablets get a warmer, calmer design: a picture-led Home, clearer Live TV rows, a new Now Playing page, Settings laid out the Android way, and a Light appearance.
+
+### Look
+- **Warm dark and Light:** pages, cards and bars step up in warm near-black tones instead of flat grey. Settings › Appearance › Appearance chooses Dark, Light or Automatic (follows the device).
+- **Glow:** behind Now Playing and Home's banner, the picture's own colours light the page softly. Play buttons and badges keep the honey-to-ember gradient; everything else is quieter.
+
+### Home
+- **Banner:** the newest films fill the top of Home with their picture running into the page, with Play, Favourite and More About.
+- **Rows:** Continue Watching, On Now, Recently Added Films, Favourite Channels, Recommended for You, Because You Watched, Favourite Movies and Favourite Series, each shown only when it has something in it. See All opens the page behind a row.
+- **Home Screen setting:** Settings › Appearance › Home Screen switches each row on or off and changes their order.
+- **Playlist:** the open playlist's name sits at the top left; with more than one playlist, tap it to switch.
+
+### Live TV
+- **Rows:** each channel shows its logo, number, name, what's on with its times and a thin progress line, and what's next. The channel playing sits on its own card.
+- **Categories:** the current category and its neighbours are chips along the top; the chip with the arrows opens the full list.
+- **Versions of a channel:** "2 feeds" shows when one row stands for several versions of a channel, and the same channel's versions in any bracket style now combine.
+
+### Now Playing
+- **Slides up over the tabs:** opening the player fills the screen; the arrow at the top left (or a swipe down) brings back the page and the small player.
+- **Film and episode:** the title and its details come first, then the timeline, Play/Pause between bigger skip buttons, Favourite, Start Over and Subtitles & Audio, the description, the people and More Like This.
+- **Live:** the channel, what's on with how long is left, Favourite, Channels and Subtitles & Audio, what's on later, then the channel list.
+
+### Names
+- **Tidier names:** prefixes such as "EN|" and provider tags are hidden by default, and quality words move into a small badge, in lists, the player, the small player and the notification.
+- **Separator rows:** decorative heading rows in a provider's channel list ("★★★ News ★★★") no longer show as channels.
+
+### Settings
+- **Android layout:** Settings opens on the playlist card and one row per area, each with its own icon; About and Reset are pages of their own, and every reset is in red.
+- **Back:** Back on a phone goes back one level in Settings.
+- **Show Content In:** can be set back to All Languages.
+- **Channel order with a language chosen:** All Channels keeps the provider's order after Show Content In leaves languages out, instead of mixing categories together.
+- **Search:** results say where a setting lives ("Settings › Playback › Audio").
+
+### Accessibility
+- **TalkBack:** every new button and row has a spoken name; a switch row is one stop that says on or off.
+
+### TV
+- **Sign-in:** after a sign-in attempt, the remote's focus goes back to the form.
+
 ## v0.1.6: Playlists that can't open, and playlist names (18 November 2026)
 A playlist whose subscription has ended no longer leaves the app waiting at launch: it says why and lets you pick another, and every playlist now has a name you choose.
 

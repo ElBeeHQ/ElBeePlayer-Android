@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 8,
+      "versionName": "0.1.7",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.7/ElBeePlayer-0.1.7.apk",
+      "apkSize": 11465054,
+      "apkSha256": "5b30e550db8a7a980ad0bb561b8667aa55b55931dcc509b03a6805793d66f137",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "Phones and tablets get a warmer, calmer design: a picture-led Home, clearer Live TV rows, a new Now Playing page, Settings laid out the Android way, and a Light appearance.\n\n- Warm dark and Light\n- Glow\n- Banner\n- Rows\n- Home Screen setting\n- Playlist\n- And 15 more",
+      "published": "2026-11-18"
+    },
+    {
       "versionCode": 7,
       "versionName": "0.1.6",
       "minSdk": 28,
