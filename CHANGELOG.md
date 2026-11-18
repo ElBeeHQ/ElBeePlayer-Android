@@ -5,6 +5,30 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.6: Playlists that can't open, and playlist names (18 November 2026)
+A playlist whose subscription has ended no longer leaves the app waiting at launch: it says why and lets you pick another, and every playlist now has a name you choose.
+
+### Playlists
+- **Ended or turned-off accounts:** ElBee Player checks the account before loading anything. If the subscription has ended, the provider has turned the account off or the sign-in is refused, it shows Choose a Playlist with the reason ("This playlist’s subscription ended on 12 November 2026.") and Try Again, Edit…, Remove… and Add Playlist…. This happens at launch, when you make a playlist active, when you add one and when you refresh.
+- **Loads that stop:** signing in, opening the stored library and downloading the playlist each have a time limit. A server that stops sending, or never answers, ends with a clear message and the same choices instead of a load that never finishes. Cancel still works at every step.
+- **M3U links:** a link that is refused, gone or empty is reported the same way before anything is loaded.
+- **Playlist names:** a name field when you add or edit a playlist (it starts as the server's address). Edit… is on every playlist in Settings › Playlists and in Choose a Playlist.
+
+### Loading
+- **Cancel on every load:** opening a playlist at launch, switching to one and reloading one after an edit now offer Cancel too, not only the first load. Cancel goes to Choose a Playlist.
+- **Refresh percentage:** Refresh Playlist & Guide Now shows how far it has got beside its line in Settings › Playlists.
+
+### Accessibility
+- **Which playlist:** with TalkBack, a playlist's buttons say which playlist they act on ("Edit, Living Room").
+- **Why it couldn't be added:** the reason a playlist couldn't be added is read out, and on a phone the page scrolls to it.
+
+### TV
+- **Which playlist:** "Playlist: <name>" sits in a quiet line above every page, so you always know which one is open.
+
+### Phone and tablet
+- **Which playlist:** the open playlist's name shows at the top of Home, in Choose a Playlist and in Settings.
+- **No refresh toast:** the "Refreshing…" message that popped up over the page is gone; the loading strip already shows it.
+
 ## v0.1.5: Stopping playback fixed (17 November 2026)
 Stopping or changing what plays no longer closes the app when your playlist's addresses start with https.
 

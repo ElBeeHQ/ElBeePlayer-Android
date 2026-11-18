@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 7,
+      "versionName": "0.1.6",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.6/ElBeePlayer-0.1.6.apk",
+      "apkSize": 11350366,
+      "apkSha256": "0626e576050b057902aba0875a532079ddf5d22ece9f48723af11ece4d25293d",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "A playlist whose subscription has ended no longer leaves the app waiting at launch: it says why and lets you pick another, and every playlist now has a name you choose.\n\n- Ended or turned-off accounts\n- Loads that stop\n- M3U links\n- Playlist names\n- Cancel on every load\n- Refresh percentage\n- And 5 more",
+      "published": "2026-11-18"
+    },
+    {
       "versionCode": 6,
       "versionName": "0.1.5",
       "minSdk": 28,
