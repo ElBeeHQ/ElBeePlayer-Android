@@ -5,6 +5,32 @@ All notable changes to ElBee Player for Android are listed here, newest first.
 <!-- Each release adds an entry: "## v0.1.0: Theme (11 November 2026)", then one opening sentence that stands on its
 own, then "### " sections of "- **Name:** what it does" bullets. Scripts/publish-release.sh reads it. -->
 
+## v0.1.8: A new look on TV, and new film, series and guide pages on phones (18 November 2026)
+TVs get the warmer design phones had in 0.1.7, with a slimmer side rail, a picture-led Home and a new Live TV, and phones get new TV Guide, Movies and Series pages and a page for every film and series.
+
+### TV
+- **Warm dark:** pages, panels and guide cells step up in warm near-black tones; the amber focus is unchanged.
+- **Side rail:** closed, it's a column of icons over the page; Left opens it with the page names and the open playlist's name. It opens on the page you're on, and Settings opens at its top.
+- **Home:** the newest films fill the screen behind the rail with Play, Favourite and More Info, then Continue Watching, On Now and the rest of Home's rows.
+- **Live TV:** the current category and its neighbours are chips along the top; the first opens the full list (Back closes it). Each row shows the logo, number, name, what's on and a thin progress line, with what's next on the focused row; the preview beside the list follows the focused channel, with the channel's colours softly behind it.
+- **Player:** the controls sit in a smaller bar along the bottom with the gradient Play/Pause in the middle.
+- **Film and series pages:** the picture's colours light the page below it.
+
+### Phones and tablets
+- **TV Guide:** day chips along the top, a line at the current time, and a Now button that brings it back into view.
+- **Movies and Series:** a carousel of new titles, then Recently Added and a row for each category with See All; the category chips open the full list.
+- **Film page:** year, length, genre and age rating, a description that expands, director and cast, Play or Resume, Start from Beginning, Favourite, Subtitles & Audio and More Like This.
+- **Series page:** seasons, episodes with what you've watched, Next Episode and More Like This.
+- **Category chips:** a category the provider lists once per country shows as one chip.
+
+### Fixes
+- **Updates on Fire TV:** in-app updates now install on Fire TV devices with Fire OS 7, where they failed with "The download isn't a readable app package". A device on 0.1.7 or earlier needs 0.1.8 installed by hand once; updates after that work from the app.
+- **Long titles on Home:** a title too long for two lines ends with "…" below the playlist name instead of running under it, and the banner grows to fit its words.
+
+### Accessibility
+- **TalkBack on TV:** the closed side rail's icons and the Continue Watching cards read their names.
+- **Settings choices:** each choice is one target that TalkBack reads with whether it's selected.
+
 ## v0.1.7: A new look on phones and tablets (18 November 2026)
 Phones and tablets get a warmer, calmer design: a picture-led Home, clearer Live TV rows, a new Now Playing page, Settings laid out the Android way, and a Light appearance.
 

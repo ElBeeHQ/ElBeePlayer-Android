@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 9,
+      "versionName": "0.1.8",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.8/ElBeePlayer-0.1.8.apk",
+      "apkSize": 11546974,
+      "apkSha256": "ecc2f9fed303989f59e1ff0d4c24b279245fbc075d7753e5e6ef138a61cd64de",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "TVs get the warmer design phones had in 0.1.7, with a slimmer side rail, a picture-led Home and a new Live TV, and phones get new TV Guide, Movies and Series pages and a page for every film and series.\n\n- Warm dark\n- Side rail\n- Home\n- Live TV\n- Player\n- Film and series pages\n- And 7 more\n\nPlus 2 fixes.",
+      "published": "2026-11-18"
+    },
+    {
       "versionCode": 8,
       "versionName": "0.1.7",
       "minSdk": 28,
