@@ -10,7 +10,7 @@
       "apkSize": 11546974,
       "apkSha256": "ecc2f9fed303989f59e1ff0d4c24b279245fbc075d7753e5e6ef138a61cd64de",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "TVs get the warmer design phones had in 0.1.7, with a slimmer side rail, a picture-led Home and a new Live TV, and phones get new TV Guide, Movies and Series pages and a page for every film and series.\n\n- Warm dark\n- Side rail\n- Home\n- Live TV\n- Player\n- Film and series pages\n- And 7 more\n\nPlus 2 fixes.",
+      "notes": "Fire TV, Android TV and Google TV get the new design phones got in 0.1.7, and phones and tablets get a page of their own for every film and series.\n\n- On TV, the menu on the left is now a slim column of icons that opens with page names when you press Left, so every page has more room.\n- TV Home opens with the newest films filling the screen, and Live TV shows what's on now and next on every channel, with a preview beside the list.\n- On phones and tablets, every film and series has its own page with its details, cast and More Like This; series list their seasons and episodes.\n- The TV Guide, Movies and Series pages on phones and tablets are redesigned.\n- Fire TV: in-app updates work again on Fire OS 7. If this update fails on your Fire TV, download it once from elbeehq.com/apk with the Downloader app; later updates will then install from the app.",
       "published": "2026-11-18"
     },
     {
@@ -21,7 +21,7 @@
       "apkSize": 11465054,
       "apkSha256": "5b30e550db8a7a980ad0bb561b8667aa55b55931dcc509b03a6805793d66f137",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "Phones and tablets get a warmer, calmer design: a picture-led Home, clearer Live TV rows, a new Now Playing page, Settings laid out the Android way, and a Light appearance.\n\n- Warm dark and Light\n- Glow\n- Banner\n- Rows\n- Home Screen setting\n- Playlist\n- And 15 more",
+      "notes": "Phones and tablets get a completely new design: warmer colours or a Light look, a Home full of things to watch, clearer Live TV, a new player page and tidier Settings.\n\n- A warmer dark design throughout, and a Light look if you prefer it (Settings › Appearance › Appearance).\n- Home now has rows for Continue Watching, On Now, Recently Added Films, your favourites and recommendations. You choose which rows show, and in what order.\n- Live TV shows each channel's programme times, how far through it is and what's on next.\n- The player opens full screen with the title, its details and the controls laid out clearly; swipe down to keep it playing while you browse.\n- Channel and film names are tidier: provider codes such as \"EN|\" are hidden.\n- Settings is reorganised the Android way, with one page per area.",
       "published": "2026-11-18"
     },
     {
@@ -32,7 +32,7 @@
       "apkSize": 11350366,
       "apkSha256": "0626e576050b057902aba0875a532079ddf5d22ece9f48723af11ece4d25293d",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "A playlist whose subscription has ended no longer leaves the app waiting at launch: it says why and lets you pick another, and every playlist now has a name you choose.\n\n- Ended or turned-off accounts\n- Loads that stop\n- M3U links\n- Playlist names\n- Cancel on every load\n- Refresh percentage\n- And 5 more",
+      "notes": "A playlist whose subscription has ended no longer leaves the app stuck at launch: it tells you why and lets you pick another. Every playlist can now have a name of your choosing.\n\n- If a playlist's subscription has ended, or the provider has turned the account off, the app tells you at launch (with the end date) instead of waiting forever on the loading screen.\n- A load that stalls now stops with a clear message and Try Again, instead of never finishing.\n- You can name each playlist, and the app shows which one is open.\n- Cancel now works on every load, not only the first.",
       "published": "2026-11-18"
     },
     {
@@ -43,7 +43,7 @@
       "apkSize": 11301214,
       "apkSha256": "05209db224c531abb1b558a6191eb87bde117b8d47793e47cb24ebad24a2a383",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "Stopping or changing what plays no longer closes the app when your playlist's addresses start with https.\n\n- Stop and switch",
+      "notes": "Stopping or changing what's playing no longer closes the app when your playlist's addresses start with https.\n\n- Fixes the app closing when you stopped a channel or station, changed channel or left the Radio page, if your playlist uses secure (https) addresses.",
       "published": "2026-11-17"
     },
     {
@@ -54,7 +54,7 @@
       "apkSize": 11301214,
       "apkSha256": "7f85c25beea0dd2093857a37d4e8932430b30a2e3ad01c2dca1001352c6335b3",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "Every load now shows how far it has got, posters say what format a title comes in, and an update download that stalls says why.\n\n- Progress on every load\n- While you browse\n- Format badges\n- Stalled downloads",
+      "notes": "Every load now shows how far it has got, posters say what format a title comes in, and an update download that stalls tells you why.\n\n- Every load now shows its steps and a bar that fills steadily: at launch, when you switch playlist and when you refresh, not only the first time.\n- Posters and title pages show the picture and sound format a film or series comes in.\n- If an update download stops, the app says why and offers Try Again.",
       "published": "2026-11-17"
     },
     {
@@ -65,7 +65,7 @@
       "apkSize": 11235678,
       "apkSha256": "499cba3ddef7a703bc9681615d4b27b25afc832f1b0f49bbf6ea2dc4ba06f60e",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "Films and channels with surround sound can now go to your TV or soundbar as they are, and the player says what it is sending.\n\n- Spatial Audio\n- What you're hearing",
+      "notes": "Films and channels with surround sound can now go to your TV or soundbar as they are, and the player tells you what it's sending.\n\n- Surround sound now goes straight to your TV or soundbar when they can play it. It's on by default (Settings › Playback › Audio › Spatial Audio).\n- The player shows \"Spatial Audio\" or \"Surround 5.1\" while that's what is reaching your TV or soundbar.",
       "published": "2026-11-17"
     },
     {
@@ -76,7 +76,7 @@
       "apkSize": 11235678,
       "apkSha256": "5268bf673541ac978f925a9e3629ffab067f2fbfa89862315c80920e717d9d71",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "A small release: ElBee Player now says who makes it, and About lists the trademarks it names.\n\n- Start and loading screens\n- Made by ElBeeHQ\n- Third-Party Notices",
+      "notes": "A small release: ElBee Player now says who makes it, and About lists the trademarks it mentions.\n\n- The start screen and About now show that ElBee Player is made by ElBeeHQ.\n- Third-Party Notices lists the trademarks of the platforms the app runs on.",
       "published": "2026-11-16"
     },
     {
@@ -87,7 +87,7 @@
       "apkSize": 11218510,
       "apkSha256": "af8554ac1dc80382cad021e1d869c35be0d51a09492cb510fb2de137a8fb84ae",
       "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
-      "notes": "Small fixes from the first weeks on Fire TV: a box for pasting a whole link, loading that ticks off in order, a TV Guide that keeps its full width, and a clearer Manage Playlists.\n\n- Fill In From Link\n- Loading in order\n- Start screen\n- TV Guide with the mini-player\n- TV Guide clock\n- TV Guide opens at now\n- And 4 more",
+      "notes": "Fixes from the first weeks on Fire TV: paste your whole provider link to sign in, loading that ticks off in order, a TV Guide that keeps its full width, and a clearer Manage Playlists.\n\n- Sign in by pasting the whole link from your provider; the app fills in the server, username and password for you.\n- Loading shows Live TV, Movies and Series ticking off one by one.\n- On TV, the TV Guide keeps its full width with the small player in the corner, opens at the current time, and Left and Back get you to the menu more easily.\n- Manage Playlists is clearer: each playlist is a card with its own buttons, and Refresh tells you when it last ran and what it found.",
       "published": "2026-11-15"
     },
     {
