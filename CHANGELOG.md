@@ -10,6 +10,20 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.2.0: Home Screen on TV, and sealed playlist details (19 November 2026)
+Your saved playlists' links and sign-in details are now locked to this device, and on TV you can choose what Home shows.
+
+### In short
+- Your saved playlists' links, usernames and guide links are now locked with a key that never leaves this device, like their passwords already were.
+- Settings › Playlists shows only where each playlist is from, not its whole link.
+- On TV, Settings › Appearance › Layout › Home Screen lets you choose which rows Home shows and their order.
+- On TV, the Up Next card can be answered with the remote: OK plays the next episode.
+
+### Privacy
+- **Playlist details sealed on the device:** each playlist's link, username, backup links and guide link are sealed together with the same device key as its password, and the plain copies are wiped from the app's storage on the first launch after updating. If this device's key is ever reset, the playlist stays listed and asks you to sign in again.
+- **Software keys on some devices:** on some Fire TV devices without a hardware key store, the key is kept in software. It still can't be copied out by apps, but it's less protected on a rooted device.
+- **Rolling back:** 0.2.0 can't be rolled back to an earlier version without uninstalling it and adding your playlists again.
+
 ## v0.1.9: Choose your categories, and Recently Added Series (19 November 2026)
 You can now choose which categories show, one at a time or a whole region at once, and Home has a row of new series.
 

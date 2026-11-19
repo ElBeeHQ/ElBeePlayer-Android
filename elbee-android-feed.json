@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 11,
+      "versionName": "0.2.0",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.2.0/ElBeePlayer-0.2.0.apk",
+      "apkSize": 11649430,
+      "apkSha256": "1d708da1f548d8446a4dd144051b895f5b6ce71061da52bf123a879a8901b935",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "Your saved playlists' links and sign-in details are now locked to this device, and on TV you can choose what Home shows.\n\n- Your saved playlists' links, usernames and guide links are now locked with a key that never leaves this device, like their passwords already were.\n- Settings › Playlists shows only where each playlist is from, not its whole link.\n- On TV, Settings › Appearance › Layout › Home Screen lets you choose which rows Home shows and their order.\n- On TV, the Up Next card can be answered with the remote: OK plays the next episode.",
+      "published": "2026-11-19"
+    },
+    {
       "versionCode": 10,
       "versionName": "0.1.9",
       "minSdk": 28,
