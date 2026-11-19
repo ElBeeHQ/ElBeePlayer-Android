@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 10,
+      "versionName": "0.1.9",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.1.9/ElBeePlayer-0.1.9.apk",
+      "apkSize": 11596126,
+      "apkSha256": "cf0c76e8e09cdcbd997e0f98b4827642df03f8f561968aa20f0508e247e56e26",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "You can now choose which categories show, one at a time or a whole region at once, and Home has a row of new series.\n\n- Categories that start with a region, such as \"EU|\", now take their country and language from their name, so Show Content In leaves out the ones you don't watch.\n- Settings › Playlists › Manage Categories lets you set a category's country, hide or show a single category, or hide a whole region, including categories your provider adds to it later.\n- A new setting, Hide Categories Without a Country, also hides region categories such as \"EU| Mixed\" that don't say which country they're for.\n- Home has a new Recently Added Series row after Recently Added Films.\n- On TV, a new Show Content In choice now updates your lists straight away, and the signing-in screen no longer jumps when the app opens.",
+      "published": "2026-11-19"
+    },
+    {
       "versionCode": 9,
       "versionName": "0.1.8",
       "minSdk": 28,

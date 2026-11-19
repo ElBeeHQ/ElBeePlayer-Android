@@ -10,6 +10,31 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.1.9: Choose your categories, and Recently Added Series (19 November 2026)
+You can now choose which categories show, one at a time or a whole region at once, and Home has a row of new series.
+
+### In short
+- Categories that start with a region, such as "EU|", now take their country and language from their name, so Show Content In leaves out the ones you don't watch.
+- Settings › Playlists › Manage Categories lets you set a category's country, hide or show a single category, or hide a whole region, including categories your provider adds to it later.
+- A new setting, Hide Categories Without a Country, also hides region categories such as "EU| Mixed" that don't say which country they're for.
+- Home has a new Recently Added Series row after Recently Added Films.
+- On TV, a new Show Content In choice now updates your lists straight away, and the signing-in screen no longer jumps when the app opens.
+
+### Categories
+- **Countries from category names:** a category under a region prefix such as "EU|", or with no prefix, takes its country from the words in its name (English or the country's own name), and that country decides its language and the heading it sits under. Regions such as EU no longer count as English.
+- **More region playlists read right:** countries with no prefix code of their own ("EU | Malta", "EU | Cyprus", "EU | Georgia"), short and native forms ("EU | Czech Cinema", "EU | Turk Spor"), a second region's tag ("EU | EXYU General", "EU | Scandinave"), and the name after a provider's own tag ("24/7 | Turkey", "24/7 | Arabe", "VIP | Latin Sport") now say their language, so Show Content In hides them too. "EU | UK General" goes under United Kingdom. A category whose name says nothing about its language is still shown; set its country or hide it in Manage Categories.
+- **Hide Categories Without a Country:** a new setting in Playlists › Languages, off by default. While Show Content In leaves languages out, it also hides region categories that don't name a country.
+- **Manage Categories:** set any category's country (Automatic, No Country or a country), hide or show one category, or use Hide All / Show All for a whole region. A category can be shown on its own while the rest of its region stays hidden. Choices are kept for each playlist and when it refreshes. On TV everything works with the remote.
+- **Reset Category Choices:** it now also undoes hidden categories and chosen countries and regions, and it keeps your Show Content In choice.
+
+### Home
+- **Recently Added Series:** the newest series, by the same rules as Recently Added Films, with See All. On phones and tablets you can move it or switch it off in Settings › Appearance › Home Screen.
+
+### Fixes
+- **Show Content In on TV:** choosing new languages now refreshes your lists straight away; before, the choice was saved but nothing changed until the next refresh.
+- **Signing in on TV:** the logo stays exactly where it is when the app opens, with "Signing in…" and Cancel centred together under it, so the screen no longer jumps and Cancel never covers the credit at the foot.
+- **Home on phones:** no dark band appears behind the search, settings and menu buttons as you scroll; they float over the page, and what scrolls under them and the status bar fades out softly instead of clashing with them.
+
 ## v0.1.8: A new look on TV, and new film, series and guide pages on phones (18 November 2026)
 Fire TV, Android TV and Google TV get the new design phones got in 0.1.7, and phones and tablets get a page of their own for every film and series.
 
@@ -18,7 +43,7 @@ Fire TV, Android TV and Google TV get the new design phones got in 0.1.7, and ph
 - TV Home opens with the newest films filling the screen, and Live TV shows what's on now and next on every channel, with a preview beside the list.
 - On phones and tablets, every film and series has its own page with its details, cast and More Like This; series list their seasons and episodes.
 - The TV Guide, Movies and Series pages on phones and tablets are redesigned.
-- Fire TV: in-app updates work again on Fire OS 7. If this update fails on your Fire TV, download it once from elbeehq.com/apk with the Downloader app; later updates will then install from the app.
+- Fire TV: in-app updates work again on Fire OS 7. If this update fails on your Fire TV, download it once from elbeehq.com/apk with a browser or a file-transfer app; later updates will then install from the app.
 
 ### TV
 - **Warmer colours:** pages, panels and guide cells use warm near-black shades instead of flat grey. The amber highlight on whatever you've selected is unchanged.
