@@ -10,6 +10,19 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.5: A cleaner start, and clearer refresh messages (20 November 2026)
+This update tidies the app's opening on newer phones, says why a refresh failed, and removes a TV setting that did nothing.
+
+### In short
+- On newer Android phones, the app opens on its own logo, without the phone's rounded icon appearing first.
+- When a refresh fails, the message now says whether your provider answered with an error, stopped sending, or couldn't be reached.
+- On TV, Settings no longer shows Appearance, which had no effect there.
+
+### Fixes
+- **Opening:** on Android 12 and later, the phone's starting screen is the app's dark background with no icon, then the ElBee logo and name, so nothing switches.
+- **Refresh messages:** a provider's error, a download that stopped, and a provider that couldn't be reached each have their own words; Copy Diagnostics Summary also records a refresh that failed at sign-in.
+- **TV Settings:** Appearance is gone from the TV, whose look is always dark; phones keep it.
+
 ## v0.3.4: Your country first (20 November 2026)
 You can now choose a country whose categories come first everywhere, such as UK before other countries.
 

@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 17,
+      "versionName": "0.3.5",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.5/ElBeePlayer-0.3.5.apk",
+      "apkSize": 11883182,
+      "apkSha256": "2938add4a77ca3ebdd4f5879323ea0f6b0a806bc811406adac205c66d83814c7",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update tidies the app's opening on newer phones, says why a refresh failed, and removes a TV setting that did nothing.\n\n- On newer Android phones, the app opens on its own logo, without the phone's rounded icon appearing first.\n- When a refresh fails, the message now says whether your provider answered with an error, stopped sending, or couldn't be reached.\n- On TV, Settings no longer shows Appearance, which had no effect there.",
+      "published": "2026-11-20"
+    },
+    {
       "versionCode": 16,
       "versionName": "0.3.4",
       "minSdk": 28,
