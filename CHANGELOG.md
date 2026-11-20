@@ -10,6 +10,17 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.3: Refreshes that try again (20 November 2026)
+This update helps very large playlists finish refreshing when the provider briefly refuses partway through.
+
+### In short
+- Refreshing a very large playlist now tries again when the provider briefly refuses partway through, instead of stopping.
+- If a refresh still fails, Copy Diagnostics Summary says what the provider answered.
+
+### Fixes
+- **Trying again:** a list that the provider refuses partway through (too many requests, or a connection limit) is fetched again, up to three times, as for a server error.
+- **Diagnostics:** a failed refresh shows the provider's answer, such as "Server error (HTTP 429)", instead of a shortened internal name.
+
 ## v0.3.2: Categories that open at the top, and languages that stick (20 November 2026)
 This update fixes changing category on TV, playlists showing every language after a switch, and refreshes of very large playlists.
 

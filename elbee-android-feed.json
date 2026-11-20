@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 15,
+      "versionName": "0.3.3",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.3/ElBeePlayer-0.3.3.apk",
+      "apkSize": 11879030,
+      "apkSha256": "0676ca3f3288182596ec762691f65e07829985fc47387d33016adb8813068b6c",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update helps very large playlists finish refreshing when the provider briefly refuses partway through.\n\n- Refreshing a very large playlist now tries again when the provider briefly refuses partway through, instead of stopping.\n- If a refresh still fails, Copy Diagnostics Summary says what the provider answered.",
+      "published": "2026-11-20"
+    },
+    {
       "versionCode": 14,
       "versionName": "0.3.2",
       "minSdk": 28,
