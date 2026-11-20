@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 16,
+      "versionName": "0.3.4",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.4/ElBeePlayer-0.3.4.apk",
+      "apkSize": 11879030,
+      "apkSha256": "9623266e96b15375d107df216eaf97733a8060fbbbe7aba86f3a8a4e736eb015",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "You can now choose a country whose categories come first everywhere, such as UK before other countries.\n\n- Settings › Playlists › Country First puts the country you choose at the top of Live TV, the TV Guide, Movies, Series and Catch-Up.\n- Categories from other countries that share its language come next, then everything else.\n- Choose None to go back to your provider's order.",
+      "published": "2026-11-20"
+    },
+    {
       "versionCode": 15,
       "versionName": "0.3.3",
       "minSdk": 28,

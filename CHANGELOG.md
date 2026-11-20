@@ -10,6 +10,18 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.4: Your country first (20 November 2026)
+You can now choose a country whose categories come first everywhere, such as UK before other countries.
+
+### In short
+- Settings › Playlists › Country First puts the country you choose at the top of Live TV, the TV Guide, Movies, Series and Catch-Up.
+- Categories from other countries that share its language come next, then everything else.
+- Choose None to go back to your provider's order.
+
+### Country First
+- **Your country at the top:** the categories whose names start with the chosen country (such as "UK|", "GB|") are listed first, in their usual order; then those of countries with the same language (for the UK: the US, Australia, Ireland, New Zealand); then the rest. All Channels stays first.
+- **Everywhere categories are listed:** Live TV, the TV Guide, Movies, Series and Catch-Up, on phones and TVs; country headings follow the same order.
+
 ## v0.3.3: Refreshes that try again (20 November 2026)
 This update helps very large playlists finish refreshing when the provider briefly refuses partway through.
 
