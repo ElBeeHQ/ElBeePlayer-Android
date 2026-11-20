@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 13,
+      "versionName": "0.3.1",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.1/ElBeePlayer-0.3.1.apk",
+      "apkSize": 11862646,
+      "apkSha256": "3cc1247d947c93298206d89eb96ebd8cff71dec36eed25b58e7b71e66ea2f619",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update stops the TV Guide flickering between programmes and \"No programme information\".\n\n- The TV Guide no longer flickers every couple of seconds between the programmes and \"No programme information\", on TV and on phones.",
+      "published": "2026-11-20"
+    },
+    {
       "versionCode": 12,
       "versionName": "0.3.0",
       "minSdk": 28,

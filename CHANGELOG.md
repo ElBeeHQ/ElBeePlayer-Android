@@ -10,6 +10,15 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.1: A steady TV Guide (20 November 2026)
+This update stops the TV Guide flickering between programmes and "No programme information".
+
+### In short
+- The TV Guide no longer flickers every couple of seconds between the programmes and "No programme information", on TV and on phones.
+
+### Fixes
+- **A steady Guide:** working out where the timeline opens no longer loads every channel in the category, which kept pushing the channels on screen out and back in. Fixed on TV and phone.
+
 ## v0.3.0: Send a playlist to your TV, and guides that fit (20 November 2026)
 You can now send a playlist from your phone to your TV instead of typing it with the remote, and choose which guide each channel uses.
 
