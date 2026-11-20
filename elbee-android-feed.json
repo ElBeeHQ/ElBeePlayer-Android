@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 12,
+      "versionName": "0.3.0",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.0/ElBeePlayer-0.3.0.apk",
+      "apkSize": 11862646,
+      "apkSha256": "339d94cb290bbcc3e62e6b973650f6c46057613db014d0dbcb220b79e9fb2d8b",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "You can now send a playlist from your phone to your TV instead of typing it with the remote, and choose which guide each channel uses.\n\n- On TV, choose Add from Your Phone or Mac when adding a playlist, then scan the code with your phone's camera, or open the playlist on your phone and choose Send to TV.\n- A playlist can use another guide (an XMLTV link) in place of the provider's, and you can match any channel to a guide channel by hand from its menu.\n- Settings › Playback › Play In lets you play live TV or films and series in another installed player, or ask each time.\n- A new Match Frame Rate setting switches a TV to the frame rate of what you're watching while it plays full screen, where the TV allows it.\n- Channels without a guide can now be rewound up to an hour, and the bar shows how far behind live you are.\n- The Guide is easier to read, the screens for adding and choosing a playlist are clearer, and on TV the date and time are at the top right of every page.",
+      "published": "2026-11-20"
+    },
+    {
       "versionCode": 11,
       "versionName": "0.2.0",
       "minSdk": 28,

@@ -10,6 +10,51 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.0: Send a playlist to your TV, and guides that fit (20 November 2026)
+You can now send a playlist from your phone to your TV instead of typing it with the remote, and choose which guide each channel uses.
+
+### In short
+- On TV, choose Add from Your Phone or Mac when adding a playlist, then scan the code with your phone's camera, or open the playlist on your phone and choose Send to TV.
+- A playlist can use another guide (an XMLTV link) in place of the provider's, and you can match any channel to a guide channel by hand from its menu.
+- Settings › Playback › Play In lets you play live TV or films and series in another installed player, or ask each time.
+- A new Match Frame Rate setting switches a TV to the frame rate of what you're watching while it plays full screen, where the TV allows it.
+- Channels without a guide can now be rewound up to an hour, and the bar shows how far behind live you are.
+- The Guide is easier to read, the screens for adding and choosing a playlist are clearer, and on TV the date and time are at the top right of every page.
+
+### Send to TV
+- **Add from Your Phone or Mac:** when you add a playlist on the TV, it shows a code to scan and a 6-digit code. Scanning opens ElBee on the phone; or choose Send to TV on a playlist and pick the TV. Both screens show the same code, so you can check it's your TV before the playlist is sent.
+- **Only while the screen is open:** the TV listens for a playlist only while that screen is showing, only from a phone or Mac on the same Wi-Fi, and stops as soon as you leave it.
+- **Your device's name:** the TV shows the name you gave your phone, so you know who sent it.
+- **Ready to try again:** if the playlist's server doesn't answer, the TV keeps the details filled in so you can try again.
+
+### Guide
+- **Use Another Guide:** add an XMLTV link to any playlist, on the Add and Edit forms. It replaces the provider's guide. If it can't be loaded, the provider's guide is used for that time and Diagnostics says so. The link is stored securely with the playlist's other sign-in details.
+- **Match Guide Channel…:** long-press a channel on the phone, or press Menu on the TV, to search the guide's channels and pick one, or choose No Guide for This Channel. Your choices are kept when the playlist refreshes. Use Automatic Match undoes one; Clear Channel Matches on the playlist's Edit page undoes them all.
+- **Better automatic matching:** channels are matched to the guide by the same rules as ElBee on the Mac.
+- **Guide Time Offset:** move a playlist's guide earlier or later by whole hours, up to 12 either way, for guides in the wrong time zone.
+
+### Other players
+- **Play In:** choose ElBee, another installed player or Ask Each Time, separately for Live TV and for Films & Series. Play In… is also on film and episode pages, and in the player Continue in… (films and episodes) or Open in… (live channels) hands what you're watching over.
+- **Picking up where you left off:** when the other player says where you stopped, Continue Watching picks up from there.
+- **Privacy:** the first time, a short note explains that the other app gets the stream's address, which includes your sign-in details, and may keep it in its history. ElBee only looks for players that can play video; it doesn't list your other apps.
+
+### Playback
+- **Match Frame Rate:** in Settings › Playback › Player, off by default. While a player is full screen, the TV is asked for the mode that suits the stream (25 frames a second goes to 50 Hz, films at 24 to 24 Hz), and the usual mode comes back when you leave full screen. A TV's own setting of Never is respected.
+- **Rewind without a guide:** a live channel with no guide can be rewound up to the last hour, as far as the provider allows. The bar ends at live and says how far behind you are, such as "BEHIND LIVE 2 min".
+
+### TV
+- **Date and time:** at the top right of every TV page, in your device's date order and 12- or 24-hour clock.
+
+### The Guide's look
+- **Easier to read:** channel names show with their number and logo on up to two lines, programmes have more room, the line for now is drawn behind the programmes instead of over them, and the Guide opens at the first programme instead of empty time. Channels with no listings show a quiet empty slot.
+- **Header:** just the title and the category; the time is at the top right as on every TV page.
+
+### Adding and choosing a playlist
+- **One clear message:** a playlist that can't be opened shows what went wrong on its own row, with Try Again, Edit… and Remove….
+- **Choose a Playlist:** each playlist is a card with its own badge, its name on up to two lines and whether it's a Server or M3U playlist. On TV the cards sit in a row: OK opens one, and holding OK or pressing Menu offers Edit… and Remove…; a playlist that can't be opened shows why, and OK tries again. On the phone, Edit… and Remove… are under the card's More button and Add Playlist… stays at the bottom.
+- **Tidier sign-in form:** on TV the form is laid out in two balanced columns.
+- **Easier to see:** the selected button on TV has dark text on the bright fill.
+
 ## v0.2.0: Home Screen on TV, and sealed playlist details (19 November 2026)
 Your saved playlists' links and sign-in details are now locked to this device, and on TV you can choose what Home shows.
 

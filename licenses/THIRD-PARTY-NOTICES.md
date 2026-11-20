@@ -40,6 +40,12 @@ licence texts after it, in Settings › General › About › Third-Party Notice
 - Used for the real backdrop blur behind glass surfaces (the mini-player and the top button capsule) on Android 12 and later.
   Unmodified; fetched from Maven Central.
 
+## ZXing core 3.5.3 (`com.google.zxing:core`, module `:tv`)
+
+- Licence: **Apache License 2.0**. Copyright ZXing authors. https://github.com/zxing/zxing
+- Draws the QR code on the TV's "Add from Your Phone or Mac" screen. Only its encoder is used (no camera, no scanning);
+  unmodified, fetched from Maven Central.
+
 ## Android Jetpack (Compose, Compose for TV, Material 3, Navigation, Lifecycle, Activity, Room, DataStore, WorkManager, Core)
 
 - Licence: **Apache License 2.0**. Copyright (C) The Android Open Source Project. https://developer.android.com/jetpack
