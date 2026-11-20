@@ -10,6 +10,20 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.2: Categories that open at the top, and languages that stick (20 November 2026)
+This update fixes changing category on TV, playlists showing every language after a switch, and refreshes of very large playlists.
+
+### In short
+- On TV, a new Films or Series category opens at its top, with its posters showing straight away.
+- A playlist you switch to shows only the languages you chose for it, downloading its lists again if they were stored with another choice.
+- Refreshing a very large playlist waits longer for a slow server before giving up.
+
+### Fixes
+- **A new category opens at the top:** on TV, Films and Series no longer keep the last category's scroll position, and the new category's posters load without a scroll.
+- **Languages after a switch:** a Server playlist whose stored lists include languages it no longer shows downloads them again when it opens (once per launch).
+- **Patience with large playlists:** a refresh now waits up to 2 minutes for the server to send more, as long as the connection itself waits, instead of 1 minute.
+- **Diagnostics:** the summary now says how the last refresh ended, and why if it failed.
+
 ## v0.3.1: A steady TV Guide (20 November 2026)
 This update stops the TV Guide flickering between programmes and "No programme information".
 

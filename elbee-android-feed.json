@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 14,
+      "versionName": "0.3.2",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.2/ElBeePlayer-0.3.2.apk",
+      "apkSize": 11879030,
+      "apkSha256": "fc9c2ef318a78786df82ce728c1af276070069d19efdbfc8e82706a0f9901cf1",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update fixes changing category on TV, playlists showing every language after a switch, and refreshes of very large playlists.\n\n- On TV, a new Films or Series category opens at its top, with its posters showing straight away.\n- A playlist you switch to shows only the languages you chose for it, downloading its lists again if they were stored with another choice.\n- Refreshing a very large playlist waits longer for a slow server before giving up.",
+      "published": "2026-11-20"
+    },
+    {
       "versionCode": 13,
       "versionName": "0.3.1",
       "minSdk": 28,
