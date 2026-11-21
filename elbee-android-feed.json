@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 18,
+      "versionName": "0.3.6",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.6/ElBeePlayer-0.3.6.apk",
+      "apkSize": 11883182,
+      "apkSha256": "471bd33fe2b056bd1724f52e9883f23f84d8f58e891639ac9fc046609ce2876f",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update gets the phone ready to send a playlist to a Mac as well as a TV.\n\n- On your phone, Send to TV is now Send to Another Device, because ElBee Player for Mac 0.43.0 can receive a playlist too.\n- Can't scan? Find Devices on This Wi-Fi lists your Macs beside your TVs.",
+      "published": "2026-11-21"
+    },
+    {
       "versionCode": 17,
       "versionName": "0.3.5",
       "minSdk": 28,

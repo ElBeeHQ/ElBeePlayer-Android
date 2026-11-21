@@ -10,6 +10,17 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.6: Send to your TV or Mac (21 November 2026)
+This update gets the phone ready to send a playlist to a Mac as well as a TV.
+
+### In short
+- On your phone, Send to TV is now Send to Another Device, because ElBee Player for Mac 0.43.0 can receive a playlist too.
+- Can't scan? Find Devices on This Wi-Fi lists your Macs beside your TVs.
+
+### Changed
+- **Send to Another Device:** a playlist's menu on the phone says Send to Another Device instead of Send to TV. Point the camera at the code on a TV or on a Mac (File › Add from Your Phone on the Mac), or find either on your Wi-Fi. The words on the way say "the other device" rather than "the TV".
+- **On the TV:** the Add from Your Phone or Mac screen now tells Mac users to choose Send to Another Device.
+
 ## v0.3.5: A cleaner start, and clearer refresh messages (20 November 2026)
 This update tidies the app's opening on newer phones, says why a refresh failed, and removes a TV setting that did nothing.
 
