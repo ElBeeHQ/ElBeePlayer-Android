@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 19,
+      "versionName": "0.3.7",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.7/ElBeePlayer-0.3.7.apk",
+      "apkSize": 11915950,
+      "apkSha256": "58063578cd5a8c1bfa280ba6ac3f4248beafd0d4db87cc50c9ea6973ebf31f04",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update puts your chosen country first across the whole app, and the phone now names the TV or Mac you send to.\n\n- Country First is now called Preferred Country, and it sits beside Show Content In under Settings › Playlists › Languages.\n- Your country's channels and titles now come first in Live TV, the TV Guide, Films, Series, Catch-Up, All Channels and the rows on Home.\n- If your playlist has more than one country, setting up asks which country you prefer, and people already using the app are asked once.\n- When you send a playlist from your phone, it now says the name of the TV or Mac, such as \"Send to Living Room\".",
+      "published": "2026-11-21"
+    },
+    {
       "versionCode": 18,
       "versionName": "0.3.6",
       "minSdk": 28,

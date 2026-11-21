@@ -10,6 +10,24 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.7: Preferred Country everywhere (21 November 2026)
+This update puts your chosen country first across the whole app, and the phone now names the TV or Mac you send to.
+
+### In short
+- Country First is now called Preferred Country, and it sits beside Show Content In under Settings › Playlists › Languages.
+- Your country's channels and titles now come first in Live TV, the TV Guide, Films, Series, Catch-Up, All Channels and the rows on Home.
+- If your playlist has more than one country, setting up asks which country you prefer, and people already using the app are asked once.
+- When you send a playlist from your phone, it now says the name of the TV or Mac, such as "Send to Living Room".
+
+### Changed
+- **Preferred Country everywhere:** one ordering rule now covers every list on phone and TV: your country first, then countries that share its language, then the rest. Pinned rows such as All Channels stay at the top. The setting keeps your earlier Country First choice.
+- **Asked when it matters:** a set-up step after Choose Your Languages appears only when the playlist has categories from more than one country; Continue needs a choice and Skip keeps the provider's order. On TV the list has the remote's focus straight away.
+- **Send to a named device:** the phone asks the TV or Mac for its name and uses it on the way ("Send to …", "Added to …", "… didn't add the playlist"), with general words if it has none.
+
+### Fixes
+- **TV mini-player:** a test now checks that the mini-player can be reached with the remote and that OK opens full screen.
+- **README:** new screenshots of the TV Home and phone Live TV.
+
 ## v0.3.6: Send to your TV or Mac (21 November 2026)
 This update gets the phone ready to send a playlist to a Mac as well as a TV.
 

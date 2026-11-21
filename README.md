@@ -31,26 +31,56 @@
 
 ElBee Player plays the channels, programme guide, films and series from the TV service you already subscribe to.
 Sign in with your provider's server address, username and password, or add a playlist link. It comes with no
-channels or content of its own.
+channels or content of its own: it's the player, and your service is the content.
 
-## Why ElBee Player
-
-- **Made for the remote, and for touch.** On a TV, a side rail, large type and everything on the D-pad. On a phone
-  or tablet, tabs or a navigation rail, in portrait and landscape. One app for both.
-- **No account, no ads, no tracking.** Recommendations are worked out on your device, and nothing about what you
-  watch is sent to us or anyone else.
-- **Your sign-in stays on your device,** encrypted with Android Keystore, and goes only to your own service.
-- **A real TV Guide,** with catch-up where your service offers it, plus Radio, Favourites and History. A mini-player
-  stays with you while you browse.
-- **Spatial Audio:** films and channels with surround sound go to your TV or soundbar as they are, and the player
-  says what it is sending.
-- **Updates itself,** from this page, checked against ElBee Player's signing key. Your playlists and settings are kept.
-
-## Download
+One app for your phone, your tablet and your TV. It's free for personal use, with no account, no adverts and no
+tracking.
 
 <p>
   <a href="https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Android-FFB020?style=for-the-badge" alt="Download for Android" height="36"></a>
 </p>
+
+## Why ElBee Player
+
+- **Made for the remote, and for touch.** On a TV, a side rail, large type and everything on the D-pad. On a phone
+  or tablet, tabs or a navigation rail, in portrait and landscape.
+- **Everything in one place.** Live TV, the TV Guide, catch-up, films, series and radio, from one sign-in.
+- **Your country first.** Choose your country and its categories lead every list, followed by the countries that
+  share its language. Show Content In hides the languages you don't watch.
+- **Private by design.** Recommendations are worked out on your device. Your sign-in details are sealed with a key
+  that never leaves the device (Android Keystore) and go only to your own service. Nothing about what you watch is
+  sent to us or anyone else.
+
+## Features
+
+### Live TV and the TV Guide
+- A TV Guide that's easy to read from the sofa, with channel numbers and logos.
+- Catch-up where your service offers it, and rewind live TV up to an hour even without it.
+- Use Another Guide: bring your own programme guide link (XMLTV), matched to your channels automatically, with
+  Match Guide Channel… for the rest and a time offset for guides in the wrong time zone.
+- A mini-player stays with you while you browse.
+
+### Films and series
+- A page for every film and series, with seasons, episodes and Up Next. On TV, OK plays the next episode.
+- 4K, HD, HDR and surround sound badges, so you know what you're getting.
+- Spatial Audio: surround sound goes to your TV or soundbar as it is, and the player says what it's sending.
+- Match Frame Rate: the TV switches to the frame rate of what you're watching, where it allows it.
+- Continue Watching, Recently Added Films and Recently Added Series.
+
+### Make it yours
+- Manage Categories: hide a category, set its country, or hide a whole region at once.
+- Choose Home's rows and put them in your own order, on phones, tablets and TV.
+- Play In: open live TV, films or series in another player installed on the device, or ask each time.
+- Favourites, History and Radio.
+
+### Around your home
+- Add from Your Phone or Mac: on the TV, scan the code with your phone's camera and the playlist arrives, encrypted,
+  with no typing with the remote.
+- Send to Another Device…: send a playlist from your phone to your TV, or to ElBee Player for Mac.
+- Clear messages when something goes wrong: a refresh says whether your provider answered with an error, stopped
+  sending, or couldn't be reached, and tries again by itself when it can.
+
+## Download and install
 
 One APK works on phones, tablets, Android TV, Google TV and Fire TV. It isn't from an app store, so Android asks you
 to allow the install once.
@@ -65,6 +95,25 @@ to allow the install once.
    it to install apps when Android asks. The [step-by-step guide](https://elbeehq.com/android#install) covers every device.
 
 Needs Android 9 or later, and your own TV service.
+
+## Getting started
+
+1. **Add your service.** Enter the server address, username and password your provider gave you, or a playlist
+   link. On a TV, choose **Add from Your Phone or Mac** and send it from your phone instead of typing.
+2. **Choose your languages and country.** Show Content In and your country decide what comes first and what's hidden.
+3. **Watch.** Home shows what's new, what's on now and what you were watching.
+
+## Updates
+
+ElBee Player updates itself from this page. Each update is checked against ElBee Player's own signing key before it's
+offered, and your playlists and settings are kept. You can turn automatic checks off in **Settings › General ›
+Updates**. Every change is listed in [What's New](CHANGELOG.md).
+
+## Also from ElBeeHQ
+
+- [**ElBee Player for Mac**](https://elbeehq.com/mac): the same service on a Mac, with Add from Your Phone to bring
+  your playlist across with a scan.
+- [**ElBee Stats**](https://elbeehq.com/stats/): download statistics for your own GitHub releases, on a Mac.
 
 ## Links
 
