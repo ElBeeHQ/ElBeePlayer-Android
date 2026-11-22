@@ -94,6 +94,13 @@ licence texts after it, in Settings › General › About › Third-Party Notice
   (`elbeehq_wordmark_on_dark.xml`, `elbeehq_wordmark_on_light.xml`). The font itself is not included, and no text in the
   app is set in it.
 
+## Big Shoulders Display (module `:ui`, `res/font/big_shoulders_display.ttf`)
+
+- Licence: **SIL Open Font License 1.1** (https://openfontlicense.org). Copyright 2019 The Big Shoulders Project Authors
+  (https://github.com/xotypeco/big_shoulders).
+- The app's display face: page names, titles, buttons, channel numbers and the clock. Bundled unmodified as the variable
+  font from the Google Fonts repository; the full licence text follows this list.
+
 ## Trademarks
 
 Fire TV is a trademark of Amazon.com, Inc. or its affiliates. Android, Android TV and Google TV are trademarks of
@@ -101,8 +108,9 @@ Google LLC. ElBee Player is not affiliated with or endorsed by Amazon or Google.
 
 ## The licence texts
 
-The full texts of the GNU Lesser General Public License 2.1 (`ffmpeg/COPYING.LGPLv2.1`) and the Apache License 2.0
-(`ffmpeg/LICENSE-media3-apache-2.0`) follow this list in the app and are published with every release.
+The full texts of the GNU Lesser General Public License 2.1 (`ffmpeg/COPYING.LGPLv2.1`), the Apache License 2.0
+(`ffmpeg/LICENSE-media3-apache-2.0`) and the SIL Open Font License 1.1 (`fonts/OFL-big-shoulders-display.txt`) follow this
+list in the app and are published with every release.
 
 ## FFmpeg source offer (LGPL 2.1 or later)
 

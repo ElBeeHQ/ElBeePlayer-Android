@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 20,
+      "versionName": "0.3.8",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.8/ElBeePlayer-0.3.8.apk",
+      "apkSize": 12034860,
+      "apkSha256": "0d239d637f9f92c75abdbcca884dab0faa4a814c113b85be36198d29f90f231a",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update gives the whole app a new look on phone and TV, puts tonight's programmes on your Home page, and lets the room take its colour from what you're browsing, with nothing taken away.\n\n- Home now shows Tonight: what's on and what starts in the next two hours, on a timeline with a red line at now. Tap or press OK on something that hasn't started and ElBee reminds you a minute before.\n- The glow at the top of Movies and Series takes its colour from the title you're on.\n- Movies and Series open on all your films or series at once, and you can search them by name right on the page.\n- Setting up is shorter: three steps from hello to your library, with your country and languages guessed for you.\n- Pages are calmer: fewer boxes and pills, big channel numbers, and clearer words for categories and buttons.",
+      "published": "2026-11-22"
+    },
+    {
       "versionCode": 19,
       "versionName": "0.3.7",
       "minSdk": 28,

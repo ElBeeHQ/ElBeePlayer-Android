@@ -10,6 +10,52 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.8: A fresh look (22 November 2026)
+This update gives the whole app a new look on phone and TV, puts tonight's programmes on your Home page, and lets the room take its colour from what you're browsing, with nothing taken away.
+
+### In short
+- Home now shows Tonight: what's on and what starts in the next two hours, on a timeline with a red line at now. Tap or press OK on something that hasn't started and ElBee reminds you a minute before.
+- The glow at the top of Movies and Series takes its colour from the title you're on.
+- Movies and Series open on all your films or series at once, and you can search them by name right on the page.
+- Setting up is shorter: three steps from hello to your library, with your country and languages guessed for you.
+- Pages are calmer: fewer boxes and pills, big channel numbers, and clearer words for categories and buttons.
+
+### New
+- **Tonight on Home:** your country's first channels on a two-hour timeline with quarter-hour ticks and a red now line. What's on plays at once; something to come offers Remind Me, and a card with Watch shows a minute before it starts. Reminders stay on this device only, and last when the app is closed and opened again. On the phone the evening scrolls sideways and See All opens the TV Guide.
+- **The room follows the picture:** on Movies and Series the soft glow at the top of the screen takes its colour from the poster you're on (TV) or the featured title on show (phone), and changes slowly. Text, buttons and focus keep their own colours.
+- **Tonight on Live TV (phone):** the same two-hour timeline sits above the channels, for the category you're looking at.
+- **All Films and All Series:** Movies and Series start on every category at once (hidden and locked categories are left out until unlocked).
+- **Search Films and Search Series:** type a name in the box at the top of Movies or Series and the matching titles fill the grid; the category list still narrows as you type. On TV, Back from a film you found brings you back to the results.
+- **Now Playing beside the clock (TV):** while a video plays in the small picture, its name sits in the top line next to the time, and a library update shows there too instead of a panel at the foot of the page.
+
+### Changed
+- **A new look everywhere:** deep midnight-blue pages with honey-amber for what you can press, a condensed display face for titles and numbers, and quarter-hour ticks on every progress line.
+- **Setup in three steps:** Hello (scan the code from your phone, or enter it on this TV), Make It Yours (country and languages, guessed from your device and easy to change), then your library loads straight into Home.
+- **Live TV:** categories are words with an amber underline instead of pills, channel numbers are large, and rows sit on the page with only the playing channel lifted.
+- **TV Guide:** big channel numbers, the category as amber words, and programmes too short for a readable title are left empty until you move onto them.
+- **Movies and Series on TV:** five posters across on every TV.
+- **Buttons on TV:** squared-off corners, and the main button of a step in capitals.
+- **Phone pages:** Movies, Series, Live TV and the TV Guide use underlined words for categories, seasons and days; Live TV rows sit on the page with the number large.
+- **A playlist on a bare address** is called "My Playlist" until you rename it.
+- **Preferred Country first:** Live TV and the TV Guide open on your country's first category unless you chose another, and Home's Tonight and On Now show your country's channels.
+- **Settings on TV:** the tabs run down the left, each tab's settings are in groups with headings, and the focused setting's help is in a line at the foot.
+- **Settings on the phone:** each area has a solid coloured tile for its icon.
+- **Now Playing keeps the screen on (phone)** while anything is on it, paused or radio included. Elsewhere the screen sleeps as usual and the programme keeps playing: Pause When Screen Locks is now off unless you turn it on.
+- **Featured titles on phone Movies and Series** show one whole card at a time that snaps into place as you swipe.
+
+### Fixes
+- **Add a playlist on TV:** Back closes the larger code screen and returns to the form, and a declined send closes the screen as Back does.
+- **Phone player:** in portrait with the guide below, the controls stay put instead of hiding while you read; one tap on Full Screen is enough.
+- **Phone Home:** the buttons at the top stay readable over a bright picture.
+- **TV:** the small picture no longer sits over the clock.
+- **TV Guide and Tonight:** the red now line is drawn over the programmes, not hidden behind them, and stops at the last row.
+- **Add a playlist on TV:** Sign In sits right under the password, without scrolling.
+- **TV pages beside the open side menu** fade under it, so the menu's names stay readable.
+- **TV setup lists:** the first language or country isn't cut off at the top when it has focus.
+- **Phone player:** the buttons over the picture fade after a few seconds in portrait too, so they no longer cover the top of the video; tap the picture to bring them back.
+- **Phone player:** Back from Full Screen returns to Now Playing, upright, instead of jumping to the small player while the phone turns.
+- **Phone Series:** the back button no longer sits over the title's words.
+
 ## v0.3.7: Preferred Country everywhere (21 November 2026)
 This update puts your chosen country first across the whole app, and the phone now names the TV or Mac you send to.
 
