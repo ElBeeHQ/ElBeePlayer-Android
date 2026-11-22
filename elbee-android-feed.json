@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 21,
+      "versionName": "0.3.9",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.9/ElBeePlayer-0.3.9.apk",
+      "apkSize": 12034860,
+      "apkSha256": "afdbee0a936e810bfbbbeed0c81b605f50fa0b331069d654a50b66ddf6230c63",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update fixes what got in the way after the new look: the small picture no longer covers what you're browsing, posters show as soon as you open a category, and TV Settings fit far more on a screen.\n\n- On TV, the small picture of what's playing now sits beside Home, Movies, Series, Recently Added, Search and film and series pages instead of covering them.\n- Posters and the background glow appear as soon as you open a category in Movies or Series, without scrolling first.\n- In the full-screen TV player, Back hides the controls first; press it again to leave full screen.\n- TV Settings show one line per setting, so you scroll far less; what a setting does shows at the foot of the screen.\n- Tonight and On Now on Home find your channels again when your country is the United Kingdom or the United States.",
+      "published": "2026-11-22"
+    },
+    {
       "versionCode": 20,
       "versionName": "0.3.8",
       "minSdk": 28,

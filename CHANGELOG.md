@@ -10,6 +10,27 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.9: Smoother browsing (22 November 2026)
+This update fixes what got in the way after the new look: the small picture no longer covers what you're browsing, posters show as soon as you open a category, and TV Settings fit far more on a screen.
+
+### In short
+- On TV, the small picture of what's playing now sits beside Home, Movies, Series, Recently Added, Search and film and series pages instead of covering them.
+- Posters and the background glow appear as soon as you open a category in Movies or Series, without scrolling first.
+- In the full-screen TV player, Back hides the controls first; press it again to leave full screen.
+- TV Settings show one line per setting, so you scroll far less; what a setting does shows at the foot of the screen.
+- Tonight and On Now on Home find your channels again when your country is the United Kingdom or the United States.
+
+### Fixed
+- **Room for the small picture (TV):** while something plays in the corner, Home, Recently Added, Movies, Series, Search and film and series pages end short of it, so it covers no posters, words or rows. Movies and Series show three posters across beside it, at the same size, and five again when it closes.
+- **Posters on opening a category:** Movies and Series (TV and phone) draw every poster and the glow as soon as a category opens, instead of blank cards until you scrolled.
+- **Tonight and On Now for the UK and US:** Home's guide and On Now row show your country's channels again when your provider writes the country as UK or USA.
+- **Live TV's words under the picture (TV):** they describe what's playing, under NOW PLAYING, rather than the channel you happen to be on in the list. With nothing playing they follow your move as before.
+
+### Changed
+- **Back in the TV player:** with the controls showing, Back hides them and the picture stays full screen; Back again leaves.
+- **TV Settings in one line each:** each setting is its name with its value or switch on the right, on the page with a faint line under it. What it does, and the detail behind the "i", show in the line at the foot of the screen while it's selected.
+- **The seek bar (TV):** selected, it grows thicker and brighter with a soft halo round its dot, instead of a ring and glow round the whole bar.
+
 ## v0.3.8: A fresh look (22 November 2026)
 This update gives the whole app a new look on phone and TV, puts tonight's programmes on your Home page, and lets the room take its colour from what you're browsing, with nothing taken away.
 
