@@ -25,7 +25,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/screenshot-dark.jpg">
-    <img src="assets/screenshot-light.jpg" alt="ElBee Player's Home on a TV, with new films and On Now, beside Live TV on a phone">
+    <img src="assets/screenshot-light.jpg" alt="ElBee Player's Home on a TV, with Tonight's guide under the banner, beside Live TV on a phone">
   </picture>
 </p>
 
