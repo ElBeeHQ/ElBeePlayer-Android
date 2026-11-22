@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 22,
+      "versionName": "0.3.10",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.10/ElBeePlayer-0.3.10.apk",
+      "apkSize": 12051244,
+      "apkSha256": "54491f3d890ebb5d762808938706940bc233ad33f008f8d123582875d33513a3",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update makes Live TV, the TV Guide and Tonight open on your own country's channels again, smooths out installing updates, and can open ElBee Player when your TV starts.\n\n- Live TV and the TV Guide open on your country's channels again, never on an empty category.\n- Tonight on Home shows your channels: favourites, those you watched lately, then your country's channels with a guide.\n- From the next update on, installing one shows an Updating page, and ElBee Player opens again by itself once it's in.\n- New in Settings › General: Open at Startup opens ElBee Player when your TV or streaming stick starts up.\n- On TV, rows run on behind the small picture of what's playing instead of stopping short of it.",
+      "published": "2026-11-22"
+    },
+    {
       "versionCode": 21,
       "versionName": "0.3.9",
       "minSdk": 28,

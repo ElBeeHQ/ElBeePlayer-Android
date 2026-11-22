@@ -10,6 +10,29 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.10: Your channels first (22 November 2026)
+This update makes Live TV, the TV Guide and Tonight open on your own country's channels again, smooths out installing updates, and can open ElBee Player when your TV starts.
+
+### In short
+- Live TV and the TV Guide open on your country's channels again, never on an empty category.
+- Tonight on Home shows your channels: favourites, those you watched lately, then your country's channels with a guide.
+- From the next update on, installing one shows an Updating page, and ElBee Player opens again by itself once it's in.
+- New in Settings › General: Open at Startup opens ElBee Player when your TV or streaming stick starts up.
+- On TV, rows run on behind the small picture of what's playing instead of stopping short of it.
+
+### Fixed
+- **Live TV and the TV Guide open where they should:** a category with no channels is never where they open. A category named only for your country, such as "UK", comes after your country's other categories, and On Now and Tonight use its channels only when there are no others: some providers fill it with another country's channels.
+- **Tonight shows your channels:** Tonight on Home (TV and phone) shows the channels On Now picks for you, rather than the first category in your provider's order, which could hold channels with no guide.
+- **Home's background (TV):** the banner's picture fades away as you scroll down, leaving the page's own glow behind the rows.
+
+### Changed
+- **Updating ElBee Player:** after you choose Install Update, a page says the update is going in, and ElBee Player opens again by itself afterwards (up to Android 9, or later where it may display over other apps; otherwise it says to open it from your apps). Cancel in Android's installer brings the prompt back with nothing changed. You'll see it from the update after this one.
+- **Rows beside the small picture (TV):** Home's rows, Search's rows and a series' episodes run to the edge of the screen and pass behind the small picture; the one you're on always stays clear of it.
+- **The version on loading screens:** every launch and loading screen shows the installed version in its bottom-right corner.
+
+### New
+- **Open at Startup:** Settings › General › Startup. ElBee Player opens once your device has started up. On newer devices, turning it on asks you to let ElBee Player display over other apps, which is what lets it open by itself.
+
 ## v0.3.9: Smoother browsing (22 November 2026)
 This update fixes what got in the way after the new look: the small picture no longer covers what you're browsing, posters show as soon as you open a category, and TV Settings fit far more on a screen.
 
