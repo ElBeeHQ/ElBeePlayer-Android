@@ -10,6 +10,24 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.11: Smoother on TV (24 November 2026)
+This update makes Home on TV much smoother, especially on streaming sticks, and keeps films and series in full view beside the small picture.
+
+### In short
+- Home on TV moves smoothly: scrolling and moving between rows no longer stutters on streaming sticks.
+- Movies, Series, their search and Recently Added keep five posters across beside the small picture of what's playing.
+- Tonight and On Now mix your country's channels from all its categories, instead of filling up from one.
+- The loading screen's words no longer cover the version number.
+
+### Fixed
+- **Smoother Home (TV):** the page's glow and the banner's picture are drawn once and reused as you move, instead of being painted afresh on every frame or every scroll. On a streaming stick, moving around Home went from about 20 frames a second to mostly full speed.
+- **Grids beside the small picture (TV):** Movies, Series, their search and Recently Added run on behind the small picture, like Home's rows; the poster you're on always stays clear of it.
+- **Your country's channels:** Tonight and On Now take a few channels from each of your country's categories in turn, general ones before sport and events, so one category can't fill every place.
+- **Loading screen (TV):** while the loading steps fill the foot of the screen, the version number moves to the top right-hand corner.
+
+### Changed
+- **Faster from the start:** ElBee Player now ships with its pages compiled ahead of time, so they run at full speed once your device has set it up after installing or updating.
+
 ## v0.3.10: Your channels first (22 November 2026)
 This update makes Live TV, the TV Guide and Tonight open on your own country's channels again, smooths out installing updates, and can open ElBee Player when your TV starts.
 
