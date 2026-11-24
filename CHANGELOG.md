@@ -10,6 +10,32 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.13: Recently Watched (24 November 2026)
+This update adds a Recently Watched category to Live TV and the TV Guide, opens channels on phones with a single tap, and makes Home's sport row steadier and better at picking your matches.
+
+### In short
+- Live TV and the TV Guide have a Recently Watched category, next to All Channels: the channels you've watched lately, newest first.
+- On phones, tapping a channel in Live TV opens it full screen straight away.
+- On TV, Back from full screen returns Live TV to the category and channel you were on.
+- Progress bars fill as one solid line.
+- Home's sport row no longer closes the app on some guides, and keeps your country's sports and national teams in front.
+
+### New
+- **Recently Watched channels:** a category beside All Channels in Live TV and the TV Guide, on TV and phone, lists the live channels in your History, most recent first. It follows History as you watch, clearing History empties it, and you can make it your Default Channel Category (Settings, Live TV).
+
+### Changed
+- **One tap to watch (phone):** a channel tapped in Live TV opens the full player at once, instead of a picture at the top of the page that needed a second tap. Back or a drag down takes it to the mini-player, as on every other page.
+- **Solid progress bars:** a bar's fill is one unbroken line; the quarter marks show only on the part still to come.
+
+### Fixed
+- **Sport row and some guides:** a guide that lists the same programme twice under two names no longer closes the app on Home.
+- **Your country's sports stay on the row:** other sports only fill the places your country's own leave, so a busy evening of another sport can't push them off.
+- **National teams:** a region that shares a country's name (a state or county called "New …", "South …" or "Western …") no longer counts as that country's national team.
+- **Your teams:** a team is learnt without the league name or kick-off time around it, and only counts when it's a whole side of a match, so a common word in a team's name doesn't bring every match with that word to the front.
+- **Events categories:** an events or pay-per-event category of films, music or shows is no longer read as sport, so its programmes stay in On Now.
+- **Back to where you were (TV):** Back from full screen returns Live TV to the category you were on and to the channel you played, instead of the default category's first row.
+- **Send to TV, code mode:** pressing They Don't Match very quickly tells the sending device the codes didn't match, instead of saying the code had expired.
+
 ## v0.3.12: Sport today (24 November 2026)
 This update turns Home's Tonight row into the day's live and coming sport, ranked for your country and your teams, and makes Live TV on phones simpler to read.
 

@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 25,
+      "versionName": "0.3.13",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.13/ElBeePlayer-0.3.13.apk",
+      "apkSize": 12084012,
+      "apkSha256": "b7984d8d5d9ff1870b2bd54cd10cc148a38490787f384b463c289a8e17d1e104",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update adds a Recently Watched category to Live TV and the TV Guide, opens channels on phones with a single tap, and makes Home's sport row steadier and better at picking your matches.\n\n- Live TV and the TV Guide have a Recently Watched category, next to All Channels: the channels you've watched lately, newest first.\n- On phones, tapping a channel in Live TV opens it full screen straight away.\n- On TV, Back from full screen returns Live TV to the category and channel you were on.\n- Progress bars fill as one solid line.\n- Home's sport row no longer closes the app on some guides, and keeps your country's sports and national teams in front.",
+      "published": "2026-11-24"
+    },
+    {
       "versionCode": 24,
       "versionName": "0.3.12",
       "minSdk": 28,
