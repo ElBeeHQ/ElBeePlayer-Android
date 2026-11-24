@@ -10,6 +10,26 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.12: Sport today (24 November 2026)
+This update turns Home's Tonight row into the day's live and coming sport, ranked for your country and your teams, and makes Live TV on phones simpler to read.
+
+### In short
+- Home's Today row (Tonight after 5 pm) shows the day's live and coming sport from your playlist, one card a match: tap or press OK on a live one to watch, or on one to come to be reminded.
+- Your country's favourite sports come first, and so do its national teams' matches, in every sport.
+- Matches of teams you've watched or asked to be reminded of come first, and your own sports channels are preferred.
+- On Now no longer repeats a match that the sport row already shows.
+- Live TV on phones goes straight to the channel list, and channel numbers no longer repeat on All Channels.
+
+### Changed
+- **Sport on Home:** the Today row (Tonight from 5 pm) lists live and coming events from your playlist's sports categories for the rest of the day, read from the guide and from event channels named for their match. What's on now comes first; highlights, repeats and studio shows are left out.
+- **Ranked for you:** after what's on now, matches of your teams come first, then your country's national teams (any sport), then the rest by start time, your country's main sports first. Your teams are the sides of matches you watch or set a reminder on from the row; they're kept on your device only.
+- **Your sports channels first:** sports channels in your Favourites and History are read first, and a match on several channels shows on the one you use.
+- **Simpler Live TV (phone):** the guide slice above the channel list is gone; each row already shows what's on, how far through it is and what's next, and the TV Guide has the timeline and Remind Me.
+
+### Fixed
+- **On Now and sport:** On Now leaves out a channel showing a match the sport row already has, and fills its place with another of your channels.
+- **Channel numbers:** a list whose numbers repeat (providers that number each category from 1) shows no numbers, on Live TV and in the TV Guide; a single category still shows its own.
+
 ## v0.3.11: Smoother on TV (24 November 2026)
 This update makes Home on TV much smoother, especially on streaming sticks, and keeps films and series in full view beside the small picture.
 
