@@ -10,6 +10,36 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.15: Clearer and Quicker (25 November 2026)
+This update makes search much faster on big libraries, shows programme times the way your device's clock does, makes TV pages and the phone guide easier to read, and fixes a handful of things behind the scenes.
+
+### In short
+- Search answers in a fraction of the time on very large libraries.
+- Programme times follow your device's clock: 12-hour (9:40 PM) or 24-hour (21:40).
+- On TV, a film playing while you browse Live TV shows in the page's own picture, with nothing on top of it.
+- The phone TV Guide shows each channel's name, and TV Home's banner words stay readable over bright pictures.
+- In Light mode, amber words, underlines and progress lines are deeper shades that are easier to see and read.
+
+### Changed
+- **Times in your device's format:** programme times in lists, the TV Guide, the player, Tonight and the reminder card follow the device's 12- or 24-hour setting, like the clock at the top.
+- **A film on Live TV (TV):** a film or episode playing while you browse Live TV shows in the page's own picture, and Now Playing opens it full screen. Before, a small player sat over an empty picture.
+- **Channel names in the phone guide:** held upright, the guide's channel column shows each channel's name under its logo, on up to two lines.
+- **Readable banner (TV Home):** the shade behind the banner's words is deeper, so they stay readable over a bright picture.
+- **Clearer Light mode:** in Light mode each use of the accent has its own shade, so it stands out from the page: filled buttons stay honey amber with dark words, underlines, progress lines and rings are a deeper amber, and amber words, dialog buttons and warnings such as "Remove…" are darker still, so they're easy to read. Settings' coloured tiles pick a dark or white symbol, whichever reads better. Dark mode is unchanged.
+- **Skip Interval's words:** its description says it sets how far the skip buttons, and Left and Right on a remote, jump.
+
+### Fixed
+- **Faster search:** a search reads only the search index, not every title in the library; on a library of nearly 600,000 titles it went from about 1.4 seconds to 0.1 to 0.4 seconds.
+- **Up Next and History:** an episode Up Next gets ready is added to History only once it starts playing, so one you skip never shows there.
+- **Smoother playing:** working out what to play next, the next or previous episode, or why something can't play happens off the screen's own work, so pages no longer stutter while it's worked out.
+- **A guide download that breaks off:** if a guide stops part-way, the guide you already had is kept instead of being replaced by half of one, for as long as it still covers now; once it doesn't, what arrived is used, so one guide address that never answers can't leave the guide empty. A compressed guide that unpacks to an unreasonable size is refused.
+- **Episode lists:** the app keeps fewer series' episode lists in memory, always keeping the series you're opening and the one playing.
+- **Erase All Content and Settings:** also clears reminders, the learnt teams, the saved categories, the guide's channel files, picture caches and remembered formats. Removing a playlist also forgets its languages, category rules and last channel.
+- **Updates:** an update is only downloaded over a secure (https) address.
+- **Guide addresses in a playlist:** a playlist's own guide addresses must be web addresses (http or https), unless the playlist is a file on the device.
+- **Quieter logs:** details of what failed are written to the device's log only in test builds.
+- **TV Guide's short programmes (TV):** a focused programme of 30 minutes or less keeps the row's height, so its progress line no longer runs through the times.
+
 ## v0.3.14: Back Where You Were (25 November 2026)
 This update brings you back to what you were watching on TV Home, keeps every live match somewhere on Home, lets you clear the teams the sport row has learnt, and tidies a few words.
 

@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 27,
+      "versionName": "0.3.15",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.15/ElBeePlayer-0.3.15.apk",
+      "apkSize": 12100396,
+      "apkSha256": "c362bc8e9d15e449d9a801aa72edcfeac5a7d39dc09258a1337fc9bb1b978dec",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update makes search much faster on big libraries, shows programme times the way your device's clock does, makes TV pages and the phone guide easier to read, and fixes a handful of things behind the scenes.\n\n- Search answers in a fraction of the time on very large libraries.\n- Programme times follow your device's clock: 12-hour (9:40 PM) or 24-hour (21:40).\n- On TV, a film playing while you browse Live TV shows in the page's own picture, with nothing on top of it.\n- The phone TV Guide shows each channel's name, and TV Home's banner words stay readable over bright pictures.\n- In Light mode, amber words, underlines and progress lines are deeper shades that are easier to see and read.",
+      "published": "2026-11-25"
+    },
+    {
       "versionCode": 26,
       "versionName": "0.3.14",
       "minSdk": 28,
