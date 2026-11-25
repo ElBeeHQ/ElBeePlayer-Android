@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 28,
+      "versionName": "0.3.16",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.16/ElBeePlayer-0.3.16.apk",
+      "apkSize": 12133164,
+      "apkSha256": "6a61c4cbebfb5904088192231c146a906bea91f62d0366abcf5f3a2a80a2d9af",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update lets you change channel with Up and Down on a TV remote, gives the app calmer neutral colours with one heading style throughout, puts every channel logo on a tile that suits it, and fixes a number of things on TV and phone.\n\n- On TV, press Up or Down while a live channel plays to go to the next channel in its category; hold OK for a list of the channels.\n- The app's dark and light colours are now neutral greys instead of blue-greys, so pictures and logos keep their own colours.\n- Every page and section heading uses the same tall lettering, and times and numbers line up from row to row.\n- Each channel logo sits on a light or dark tile, whichever it reads best on.\n- On phones, Sign In sits right under the fields it needs, and buttons on TV and phone have squared corners.",
+      "published": "2026-11-25"
+    },
+    {
       "versionCode": 27,
       "versionName": "0.3.15",
       "minSdk": 28,

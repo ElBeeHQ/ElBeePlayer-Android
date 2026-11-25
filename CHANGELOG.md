@@ -10,6 +10,49 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.16: Channel Up and Down, and a Quieter Look (25 November 2026)
+This update lets you change channel with Up and Down on a TV remote, gives the app calmer neutral colours with one heading style throughout, puts every channel logo on a tile that suits it, and fixes a number of things on TV and phone.
+
+### In short
+- On TV, press Up or Down while a live channel plays to go to the next channel in its category; hold OK for a list of the channels.
+- The app's dark and light colours are now neutral greys instead of blue-greys, so pictures and logos keep their own colours.
+- Every page and section heading uses the same tall lettering, and times and numbers line up from row to row.
+- Each channel logo sits on a light or dark tile, whichever it reads best on.
+- On phones, Sign In sits right under the fields it needs, and buttons on TV and phone have squared corners.
+
+### New
+- **Channel up and down (TV):** with the controls hidden on a live channel, Up and Down step through the channel's Live TV category, with a banner naming the channel; the remote's channel keys do the same at any time. Holding OK, or Channels in the controls, opens a quick list of the category's channels. A locked category is skipped. Close Video moves into the controls, clear of the broadcaster's logo; Back still goes to the mini-player.
+- **Remind Me in the TV Guide (TV):** a programme still to come has Remind Me in its options.
+
+### Changed
+- **Neutral colours:** the dark pages and cards are neutral greys, and Light mode is a neutral paper. Every pairing of words and page was measured again and still passes; the amber is unchanged. Home and Live TV sit on the plain page, with no coloured glow behind them.
+- **One heading style:** every page name and section heading on TV and phone uses the app's tall heading lettering, including the TV Guide, Movies, Series and Home's rows on TV, and the lists under the phone player.
+- **Times that line up:** clocks, programme times, durations, counts and channel numbers use figures of one width, so they line up and don't shift as they change.
+- **Logo tiles:** each channel logo sits on the light or dark tile it reads best on, everywhere logos show, including On Now, Radio and Search.
+- **Focus (TV):** the focused item wears a crisp amber ring with no glow around it.
+- **Live TV rows (TV):** channel rows sit on the page with a faint line between them.
+- **No sparkles:** Home's banner says NEW RELEASE in plain lettering, and Recently Added has its own symbol.
+- **Squared buttons:** Sign In, Play, Watch and the other buttons have squared corners instead of round ends, on the phone and on the TV's Home banner.
+- **Float Video When Leaving the App (TV):** now off unless you turn it on, so a video no longer floats by itself when you leave the app on a TV. Phones and tablets keep it on, and a choice you've already made stays.
+- **Add Playlist (phone):** Sign In sits right under the fields it needs; the name and guide address are under More Options, which opens by itself when either has something in it.
+- **Hello (TV):** the code is bigger, and the words say the phone needs the ElBee Player app and how to use it.
+- **Title pages (TV):** the buttons wrap to a second line instead of squeezing Play In… to nothing, and seasons are words with an underline.
+- **TV Guide (TV):** the now line never crosses a programme's title, and narrow programmes show only their start time.
+- **One Subtitles control (phone):** the player has one set of Subtitles and Audio buttons, on the picture.
+- **Search (TV):** before you type, a note says what Search finds.
+
+### Fixed
+- **Red in Light mode (phone):** LIVE, the TV Guide's now line and the favourite heart are a deeper red in Light mode, so they read clearly on the light pages.
+- **Film and series counts (phone):** Movies and Series count every title once, and All Films shows once in the list of categories.
+- **Back to the series you opened (TV):** Back from a series returns the Series grid to its poster.
+- **Series while loading (TV):** two rows of empty poster cards show while a category's list arrives, never a blank page.
+- **Posters while loading (TV):** a poster that's loading or can't load shows one clean card with the title and year.
+- **Logos while loading:** a channel's initials stay faint while its logo loads and go once it has.
+- **TV Settings beside the mini-player (TV):** the rows keep their width and end above the mini-player.
+- **Down on a series page (TV):** Down from any button lands on the season on show.
+- **Category counts (phone):** counts over a thousand have a thousands separator.
+- **Buffering (phone):** the channel or title shows under the buffering bar, so a black picture says what it's waiting for.
+
 ## v0.3.15: Clearer and Quicker (25 November 2026)
 This update makes search much faster on big libraries, shows programme times the way your device's clock does, makes TV pages and the phone guide easier to read, and fixes a handful of things behind the scenes.
 
