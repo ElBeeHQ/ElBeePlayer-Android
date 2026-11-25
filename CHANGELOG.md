@@ -10,6 +10,29 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.14: Back Where You Were (25 November 2026)
+This update brings you back to what you were watching on TV Home, keeps every live match somewhere on Home, lets you clear the teams the sport row has learnt, and tidies a few words.
+
+### In short
+- On TV, Back from full screen returns Home to the card you played, instead of the banner at the top.
+- A live match that Home's sport row has no room for now shows in On Now, so it's always somewhere on Home.
+- Settings, Live TV has Clear Learnt Teams, to forget the teams the sport row puts first.
+- On TV, Recently Watched sits right after the current category above the channel list.
+- Signing in on a TV goes from the server address straight to the username.
+
+### New
+- **Clear Learnt Teams:** in Settings, Live TV, on TV and phone. Home's sport row learns the two sides of each match you watch or set a reminder on and puts their matches first; this forgets them all. It shows how many it has learnt and is greyed out when there are none.
+
+### Changed
+- **Recently Watched one press away (TV):** the words above Live TV's channel list show Recently Watched straight after the current category, as on phones. Before, they showed the next four categories in the list, so Recently Watched never appeared there.
+
+### Fixed
+- **Back to the card you played (TV):** Back from full screen returns Home to the card you started from (the banner's Play, On Now, any row, or the sport row), with the page and the row scrolled as they were.
+- **Every live match on Home:** On Now leaves out only the matches the sport row shows. Before, it left out every match on a sports channel, so one the sport row had no room for showed nowhere.
+- **Signing in on a TV:** Down from Server address, or the keyboard's Next, now goes to Username; it skipped to Password.
+- **Make It Yours words:** with only Country or only Languages to show, the page says "We've filled this in" and "You can change it later", not "these" and "both". On TV, the note about downloading only these languages shows only when Languages does.
+- **"1 channel":** a category or playlist with one channel says "1 channel", not "1 channels", on phones.
+
 ## v0.3.13: Recently Watched (24 November 2026)
 This update adds a Recently Watched category to Live TV and the TV Guide, opens channels on phones with a single tap, and makes Home's sport row steadier and better at picking your matches.
 

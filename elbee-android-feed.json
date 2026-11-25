@@ -3,6 +3,17 @@
   "package": "io.github.elbeehq.elbeeplayer",
   "releases": [
     {
+      "versionCode": 26,
+      "versionName": "0.3.14",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.14/ElBeePlayer-0.3.14.apk",
+      "apkSize": 12084012,
+      "apkSha256": "4f8b5952a9e9ea5d3eb89722d17a06aa67858d185ff651763f72ab79248641b6",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update brings you back to what you were watching on TV Home, keeps every live match somewhere on Home, lets you clear the teams the sport row has learnt, and tidies a few words.\n\n- On TV, Back from full screen returns Home to the card you played, instead of the banner at the top.\n- A live match that Home's sport row has no room for now shows in On Now, so it's always somewhere on Home.\n- Settings, Live TV has Clear Learnt Teams, to forget the teams the sport row puts first.\n- On TV, Recently Watched sits right after the current category above the channel list.\n- Signing in on a TV goes from the server address straight to the username.",
+      "published": "2026-11-25"
+    },
+    {
       "versionCode": 25,
       "versionName": "0.3.13",
       "minSdk": 28,
