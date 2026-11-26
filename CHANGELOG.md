@@ -10,6 +10,19 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.17: Help Test ElBee Player on Google Play (26 November 2026)
+This update adds an invitation on Home to help test ElBee Player on Google Play, and you can hide it for good.
+
+### In short
+- Home shows a short invitation to join the test of ElBee Player on Google Play, for as long as the test runs.
+- On a phone, Join the test opens the page in your browser; on TV, the invitation shows a code to scan with your phone.
+- The Google Play copy installs over this one, and your playlists stay.
+- Tap ✕ on a phone, or choose Don’t show again on TV, and it won’t come back.
+
+### New
+- **An invitation to the Google Play test:** a line on Home, under the banner, between two faint rules (no card). On a phone it has Join the test, which opens the test's page in the browser, and ✕, which hides it for good. On TV it sits under Tonight; OK opens the address as a QR code and in words, with what joining needs (a Google account and an Android phone or Google TV), Not now and Don’t show again.
+- **Switched on and off from the update feed:** the invitation shows only while the signed update feed carries it and until its last day, so it can be taken away without an update. A feed without it, or with a mistake in it, shows nothing and never affects updates. Only the website's copy of the app shows it; the Google Play copy never does.
+
 ## v0.3.16: Channel Up and Down, and a Quieter Look (25 November 2026)
 This update lets you change channel with Up and Down on a TV remote, gives the app calmer neutral colours with one heading style throughout, puts every channel logo on a tile that suits it, and fixes a number of things on TV and phone.
 

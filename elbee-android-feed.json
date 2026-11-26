@@ -1,7 +1,22 @@
 {
   "format": 1,
   "package": "io.github.elbeehq.elbeeplayer",
+  "testerInvite": {
+    "url": "https://elbeehq.com/test",
+    "until": "2026-12-31"
+  },
   "releases": [
+    {
+      "versionCode": 29,
+      "versionName": "0.3.17",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.17/ElBeePlayer-0.3.17.apk",
+      "apkSize": 12149548,
+      "apkSha256": "6a495a61bfd1dbb2e5e895713ea18dae624f830a353f6b309c6740feef845bc3",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update adds an invitation on Home to help test ElBee Player on Google Play, and you can hide it for good.\n\n- Home shows a short invitation to join the test of ElBee Player on Google Play, for as long as the test runs.\n- On a phone, Join the test opens the page in your browser; on TV, the invitation shows a code to scan with your phone.\n- The Google Play copy installs over this one, and your playlists stay.\n- Tap ✕ on a phone, or choose Don’t show again on TV, and it won’t come back.",
+      "published": "2026-11-26"
+    },
     {
       "versionCode": 28,
       "versionName": "0.3.16",
