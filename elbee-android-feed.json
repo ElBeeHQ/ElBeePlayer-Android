@@ -7,6 +7,17 @@
   },
   "releases": [
     {
+      "versionCode": 31,
+      "versionName": "0.3.19",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.19/ElBeePlayer-0.3.19.apk",
+      "apkSize": 12198700,
+      "apkSha256": "a2e53f48cdd2c87f634508fe02cf54a7ff462516e05e06e4fa12f360c849555c",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update lets you give a playlist backup addresses, and ElBee Player moves to the next one by itself when your provider's server stops responding, even in the middle of a programme.\n\n- Add and Edit Playlist have a Backup Addresses section: other addresses your provider gives for the same service or playlist.\n- When the main address doesn't respond, signing in and loading try each backup in turn, giving each address at least 12 seconds and taking up to 75 seconds in all, and the playlist says which one answered.\n- With a Server Sign-In, if the server stops responding while you watch, the picture moves to the next address and a short note says \"Switched to backup 1\". For an M3U playlist, backups cover loading the playlist, not its guide link or switching a stream that is playing.\n- Backup addresses travel with a playlist when you send it to another device.\n- Adding a playlist is clearer: enter your server details first, with clear Sign In and backup address buttons, or send it from ElBee Player on your phone, even details that aren't saved there yet.\n\n\nAlso in 0.3.18:\n\nThis update keeps a playlist's favourites, history and settings when you change its details, counts a short film as watched only near its end, tidies Home and the TV Guide, and (with 0.3.17) invites you to help test ElBee Player on Google Play.\n\n- Editing a playlist's server, username or M3U link now keeps its favourites, history, resume points and category settings.\n- A film or episode now counts as watched only when you're near the end, however short it is.\n- On a phone, the bar behind the buttons at the top of Home is solid, and your playlist's name has more room.\n- On TV, the TV Guide keeps the LIVE mark and more of the channel's name.\n- A category's channel count now matches the channels it lists, with a channel's versions counted once and locked categories left out.\n- Home may show a short invitation to help test ElBee Player on Google Play; you can hide it for good.",
+      "published": "2026-11-26"
+    },
+    {
       "versionCode": 29,
       "versionName": "0.3.17",
       "minSdk": 28,

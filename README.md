@@ -74,7 +74,7 @@ tracking.
 - Favourites, History and Radio.
 
 ### Around your home
-- Add from Your Phone or Mac: on the TV, scan the code with your phone's camera and the playlist arrives, encrypted,
+- Send from ElBee Player on your phone or Mac: on the TV, scan the code with your phone's camera and the playlist arrives, encrypted,
   with no typing with the remote.
 - Send to Another Device…: send a playlist from your phone to your TV, or to ElBee Player for Mac.
 - Clear messages when something goes wrong: a refresh says whether your provider answered with an error, stopped
@@ -99,7 +99,7 @@ Needs Android 9 or later, and your own TV service.
 ## Getting started
 
 1. **Add your service.** Enter the server address, username and password your provider gave you, or a playlist
-   link. On a TV, choose **Add from Your Phone or Mac** and send it from your phone instead of typing.
+   link. On a TV, choose **Send from ElBee Player on your phone or Mac** and send it from your phone instead of typing.
 2. **Choose your languages and country.** Show Content In and your country decide what comes first and what's hidden.
 3. **Watch.** Home shows what's new, what's on now and what you were watching.
 

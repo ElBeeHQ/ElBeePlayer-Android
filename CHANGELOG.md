@@ -10,6 +10,70 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.19: Backup Addresses That Take Over (26 November 2026)
+This update lets you give a playlist backup addresses, and ElBee Player moves to the next one by itself when your provider's server stops responding, even in the middle of a programme.
+
+### In short
+- Add and Edit Playlist have a Backup Addresses section: other addresses your provider gives for the same service or playlist.
+- When the main address doesn't respond, signing in and loading try each backup in turn, giving each address at least 12 seconds and taking up to 75 seconds in all, and the playlist says which one answered.
+- With a Server Sign-In, if the server stops responding while you watch, the picture moves to the next address and a short note says "Switched to backup 1". For an M3U playlist, backups cover loading the playlist, not its guide link or switching a stream that is playing.
+- Backup addresses travel with a playlist when you send it to another device.
+- Adding a playlist is clearer: enter your server details first, with clear Sign In and backup address buttons, or send it from ElBee Player on your phone, even details that aren't saved there yet.
+
+### New
+- **Backup Addresses:** "Add a backup address" sits right under the server address, on phone and TV. Add a backup, move it up the order or remove it, up to five. An address that can't be used, or one that is already the main address or another backup, says so and holds Save back. A Server Sign-In backup is kept as the server alone (its scheme, host and port). For a Server Sign-In they are other addresses of the same service; for an M3U playlist, other addresses of the same playlist.
+- **Answered by backup:** signing in, refreshing and loading an M3U playlist try the main address first, then each backup while the server doesn't respond (no connection, a time-out, a server error). Each address has up to 8 seconds to connect and its share of about 45 seconds, never less than 12 seconds, so the whole try takes up to 75 seconds with several backups, and a main address that never answers leaves time for the backups. From the main address, a refusal, a missing page, too many requests or a certificate problem is that server's answer and stops there; a backup that is gone (a missing page) or fails its certificate moves on to the next. A playlist with no backups keeps its earlier time-outs; with no network at all, it says "You're offline" rather than trying every backup. While a backup is in use, the playlist's card in Settings says "Answered by backup 2". The next launch tries the main address again first.
+- **Streams that switch server (Server Sign-In):** channels, stations, films, episodes and catch-up move to the next address when the server stops responding, before or during playback, after one more try. A live channel first tries to pick up again where it was; a film or catch-up programme goes on from the same moment, even after a second move. Once it plays, a note names the server in use for a few seconds ("Switched to backup 1", or "Switched to the main address"). A stream the server says is missing stays where it is, since another address of the same service wouldn't have it either.
+- **The session stays on the server that answers (Server Sign-In):** once a backup is in use, channel changes, the guide, catch-up and posters and logos on the provider's server go to it first, rather than waiting for the main address again each time. Each guide request has up to 15 seconds a server.
+- **A clearer Add Your Playlist:** on TV, Hello and Add Your Playlist open on three large choices: Enter your server details, Send from ElBee Player on your phone or Mac, and Try the Demo. The form then asks for what most providers give, in order: server address (with "Add a backup address" under it), username, password and an optional name, then Sign In, the one amber button. "Have a full link? Paste it" and "Use an M3U playlist link instead" sit under Sign In. Fields are labelled boxes, and other buttons are outlined or plain words, so nothing that is a button looks like a field. The phone's Hello and form follow the same order.
+- **Send details that aren't on the phone yet:** when a TV's code opens ElBee Player on a phone, Send to the TV also offers "Enter new details to send": the Add Your Playlist form, sent to the TV, with "Also save this playlist on this phone" ticked. A phone with no playlists goes straight to it.
+- **A clear question when a playlist arrives (TV):** a playlist sent from a phone or Mac now asks "Add this playlist?" in its own dialog, with the playlist's name, the device that sent it and two clear buttons: Add playlist and Don't add.
+- **A countdown for the TV's code:** the send screen shows one line, "Waiting for your phone or Mac · code expires in 1:52", and New Code once it runs out.
+
+### Changed
+- **Sending a playlist keeps its backups:** Send to Another Device sends a playlist's backup addresses, and a received playlist keeps them. Before, both ways left them out.
+- **Filling in from a full link is under Sign In:** it is now "Have a full link? Paste it", as most providers give a server address, username and password. The Server Sign-In and M3U tabs give way to "Use an M3U playlist link instead".
+- **Home's sport is your country's:** the sport row shows one country's sports channels: your Preferred Country, or else your device's region when it speaks one of your languages, or else the country with the most sport in them. It is called This Morning, This Afternoon or This Evening, after when most of its games are.
+- **The TV Guide's Back goes to now first (TV):** Back from later or earlier in the guide returns to now; Back again leaves the guide.
+- **Re-Lock After starts at 15 minutes** for a new Parental Controls lock.
+- **Settings for the other kind of device are hidden:** rows that only work on a TV no longer show on a phone, and the other way round.
+- **Empty pages left out:** Movies, Series and Radio are left out when the library has none, and TV title pages no longer say "No rating available".
+
+### Fixed
+- **Short films and episodes finish:** where a title got to is now also kept when it ends and when you close the player or move on, not only every 5 seconds. A title under about a minute that played to the end now counts as watched and leaves Continue Watching, and closing the player no longer loses the last few seconds.
+- **Locked categories keep their size to themselves:** while Parental Controls is on, a locked category's name shows no count of channels or titles, on its category word, in the category list and under Locked Categories. The count comes back once its lock is taken off.
+- **Home stays still (phone):** Tonight's guide slice keeps its own clock, so the rest of Home no longer redraws every minute.
+- **"Press OK to watch" stays whole (TV):** in the TV Guide's narrow card beside the mini-player, a long time span now shortens before the hint does.
+- **The D-pad leaves a text field (TV):** after the keyboard's own Back, Right at the end of the text (or Left at the start) moves on to the next field, so Username to Password works with the remote alone.
+- **Addresses with a password stay private (phone):** an M3U, guide or backup address that carries a password is no longer kept in the app's saved screen state; like the password, it is typed again if the app is closed by the system.
+- **TalkBack:** each backup address field is read out by its number with any problem it has, the playlist's card reads as one item and says when a backup answered, and "Switched to backup 1" is read out when it appears.
+
+## v0.3.18: Settings That Stay Put, and a Tidier Home (26 November 2026)
+This update keeps a playlist's favourites, history and settings when you change its details, counts a short film as watched only near its end, tidies Home and the TV Guide, and (with 0.3.17) invites you to help test ElBee Player on Google Play.
+
+### In short
+- Editing a playlist's server, username or M3U link now keeps its favourites, history, resume points and category settings.
+- A film or episode now counts as watched only when you're near the end, however short it is.
+- On a phone, the bar behind the buttons at the top of Home is solid, and your playlist's name has more room.
+- On TV, the TV Guide keeps the LIVE mark and more of the channel's name.
+- A category's channel count now matches the channels it lists, with a channel's versions counted once and locked categories left out.
+- Home may show a short invitation to help test ElBee Player on Google Play; you can hide it for good.
+
+### Fixed
+- **Editing a playlist keeps its lists and settings:** a playlist's favourites, history, resume points, category settings (Show Content In, locked categories) and stored library were kept under its sign-in details, so a new server, username or M3U link in Edit... left them behind and Show Content In went back to All Languages. Editing a playlist now keeps them all, as on the Mac. Locked categories and category settings carry over while the provider's categories stay the same: after switching between Server Sign-In and M3U, or to another provider, check your locked categories in Parental Controls. A playlist added later with the old details starts afresh, apart from the edited one. Anything already lost to an earlier edit stays lost.
+- **Watched means near the end:** a title counts as watched at 92% through, whatever its length. Before, a film under 1½ minutes counted as watched almost at once.
+- **The TV Guide's info line (TV):** LIVE, more of the channel's name and the times keep their room; the progress bar takes what is left.
+- **The playlist's name at the top (phone):** the page title takes only the room it needs, so the playlist's name gets the rest, and a name of 20 letters fits instead of showing as "My Pla...".
+- **Channel counts match the list:** a category said 12 channels but listed 6 when each channel came in two versions. With Combine Channel Versions on, every channel count (the category list, the page header, All Channels, Manage Categories and the playlist's total) now counts a channel's versions once. All Channels' count and the playlist's total leave out the channels of locked categories, as the list does, and the total counts Live TV's channels only, not radio stations.
+- **No gap under the banner (phone):** on a day with no sport, or with no invitation, Home no longer leaves an empty space under the banner.
+
+### Changed
+- **A solid header on Home (phone):** the bar behind the top buttons is solid instead of see-through, and it comes in only as the banner's words reach it, so the picture stays at full strength until then.
+- **Build names (test builds):** a test or debug build shows "0.3.18 (Test build)" or "(Debug build)" in Settings and on the loading screen instead of "0.3.18-test".
+
+### New (from 0.3.17)
+- **An invitation to the Google Play test:** a line on Home, under the banner, while the signed update feed carries it. On a phone, Join the test opens the test's page in the browser and ✕ hides it for good; on TV, OK shows the address as a code to scan, with Not now and Don't show again. Only the website's copy of the app shows it.
+
 ## v0.3.17: Help Test ElBee Player on Google Play (26 November 2026)
 This update adds an invitation on Home to help test ElBee Player on Google Play, and you can hide it for good.
 
