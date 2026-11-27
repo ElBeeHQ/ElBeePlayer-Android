@@ -10,6 +10,17 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.20.1: Movies Back in the Menu (27 November 2026)
+This update fixes Movies going missing from the menu after a playlist refresh.
+
+### In short
+- Movies (and Series) no longer disappear from the TV's menu after your playlist refreshes or you switch playlists; until now it took a restart to bring them back.
+- If your language settings hide every film or series category, the page now stays in the menu and tells you how to change them.
+
+### Fixes
+- **Movies stays in the menu:** the menu checks again which pages have something in them whenever a playlist opens or a refresh finishes, not only when Home is redrawn.
+- **A page that says why it's empty:** Movies and Series stay when the provider has categories for them but a filter hides them all, with a line pointing to Settings › Playlists.
+
 ## v0.3.20: The Biggest Games, and Your Playlist by the Clock (27 November 2026)
 This update puts the biggest games in Home's sport row, shows which playlist you're watching beside the TV's clock, and makes sending a playlist from your phone sturdier.
 
