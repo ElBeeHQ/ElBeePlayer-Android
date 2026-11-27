@@ -7,6 +7,17 @@
   },
   "releases": [
     {
+      "versionCode": 32,
+      "versionName": "0.3.20",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.20/ElBeePlayer-0.3.20.apk",
+      "apkSize": 12198700,
+      "apkSha256": "2d83b6eb458812096442bd12093ef4d51627db5e259c401c6045e78ac37d2b28",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update puts the biggest games in Home's sport row, shows which playlist you're watching beside the TV's clock, and makes sending a playlist from your phone sturdier.\n\n- On a TV, the name of the playlist you're watching now sits beside the clock at the top right of every page.\n- Home's sport row picks the biggest games when there are more than it can show: your national sides first, then your country's main sports, then finals, semi-finals and derbies.\n- If your server drops the connection while your playlist is loading, ElBee Player now moves on to your backup addresses.",
+      "published": "2026-11-27"
+    },
+    {
       "versionCode": 31,
       "versionName": "0.3.19",
       "minSdk": 28,

@@ -10,6 +10,28 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.20: The Biggest Games, and Your Playlist by the Clock (27 November 2026)
+This update puts the biggest games in Home's sport row, shows which playlist you're watching beside the TV's clock, and makes sending a playlist from your phone sturdier.
+
+### In short
+- On a TV, the name of the playlist you're watching now sits beside the clock at the top right of every page.
+- Home's sport row picks the biggest games when there are more than it can show: your national sides first, then your country's main sports, then finals, semi-finals and derbies.
+- If your server drops the connection while your playlist is loading, ElBee Player now moves on to your backup addresses.
+
+### New
+- **Your playlist beside the clock (TV):** every page shows the signed-in playlist's name, with an amber playlist icon, just before the date and time. A long name is cut short, and shorter still when Now Playing and a library update are showing, so the clock is always whole. TalkBack reads "Playlist: Living Room".
+- **Notices (direct download):** ElBee Player can show a short notice on Home, such as an invitation to a test, from a signed file on the ElBee site. On a phone it is a strip with a link and a close button; on a TV, a row that opens the link as a QR code. A notice closed stays closed. A file whose signature doesn't check is ignored.
+
+### Changed
+- **The biggest games make the sport row:** with more games than the row holds, it keeps those most likely to be the big ones: your country's national sides first, in any sport, then your country's main sports, then a final, semi-final or derby in your country's languages, then the provider's main sports channels and the teams you watch. What's on now comes first, biggest first; what's still to come is in order of start time. No competition or team names are built into the app.
+- **Languages by name:** Show Content In and Make It Yours name a language by itself, "English", and add the provider's tags only when they name two or more countries, "English (UK, US…)". A provider tagging French as both FR and FRA, or Britain as both UK and GB, sees one language.
+
+### Fixed
+- **A dropped connection moves on to a backup:** a main server that takes the connection and then drops it part-way through loading now counts as not responding, so your backup addresses are tried.
+- **Sending from your phone survives being stopped:** if Android closes ElBee Player while you're away copying a password, the new details you were sending, and whether to save them on the phone, come back. The password, and any address that carries one, is typed again.
+- **French-Canadian and Latin channels in the right language:** a category tagged for Canada whose name says it's Québécois is now French only, not English too, and a channel whose name says LATIN counts as Spanish.
+- **Semi-finals in Portuguese** count as big games, a team called Derby no longer makes a match a derby, and a race's Final Practice or Final Qualifying is no final.
+
 ## v0.3.19: Backup Addresses That Take Over (26 November 2026)
 This update lets you give a playlist backup addresses, and ElBee Player moves to the next one by itself when your provider's server stops responding, even in the middle of a programme.
 
