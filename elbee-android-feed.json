@@ -7,6 +7,17 @@
   },
   "releases": [
     {
+      "versionCode": 34,
+      "versionName": "0.3.20.2",
+      "minSdk": 28,
+      "apkUrl": "https://github.com/ElBeeHQ/ElBeePlayer-Android/releases/download/v0.3.20.2/ElBeePlayer-0.3.20.2.apk",
+      "apkSize": 12215084,
+      "apkSha256": "ec90fad6c68ef8ceacbcbc7824176c1dd230bcb6ac82ad15a8eaadca1e4c6399",
+      "signingCertSha256": "8dab221814a6662739f15d90f75c1b3cc14d05ca0a10fb10af8ea79ac5fbbb57",
+      "notes": "This update lets your phone receive a playlist sent from another device.\n\n- Your phone can now receive a playlist sent from ElBee Player on a Mac, phone or TV: in Add Playlist, choose Receive from another device.",
+      "published": "2026-11-27"
+    },
+    {
       "versionCode": 33,
       "versionName": "0.3.20.1",
       "minSdk": 28,

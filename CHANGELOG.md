@@ -10,6 +10,15 @@ whether to update: 3 to 6 bullets, each a whole sentence in everyday words sayin
 Bullet names in the other sections say what changed ("A page for every film"), not just where ("Film page").
 Scripts/publish-release.sh reads it, and scripts/release_notes.py refuses an entry with no "### In short". -->
 
+## v0.3.20.2: Receive on Your Phone (27 November 2026)
+This update lets your phone receive a playlist sent from another device.
+
+### In short
+- Your phone can now receive a playlist sent from ElBee Player on a Mac, phone or TV: in Add Playlist, choose Receive from another device.
+
+### New
+- **Receive from another device:** Add Playlist on the phone has a Receive from another device button; the phone waits on your Wi-Fi with its name showing, asks you to check the code, then asks before adding the playlist.
+
 ## v0.3.20.1: Movies Back in the Menu (27 November 2026)
 This update fixes Movies going missing from the menu after a playlist refresh.
 
